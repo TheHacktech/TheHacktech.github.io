@@ -163,6 +163,11 @@ hr.small {
     color: #FFA500;
 }
 
+.faq {
+    background: #000000;
+    color: #FFFFFF;
+}
+
 /* About */
 
 .about {
@@ -186,7 +191,7 @@ hr.small {
     width: 100%;
     height: 400px;
     color: #fff;
-    background: url(../img/callout.jpg) no-repeat center center scroll;
+    background: #FFA500;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
@@ -225,6 +230,11 @@ hr.small {
 
 .map {
     height: 500px;
+}
+
+.column {
+    width: 33%;
+    float: left;
 }
 
 @media(max-width:768px) {
