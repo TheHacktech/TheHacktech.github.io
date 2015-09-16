@@ -161,6 +161,7 @@ hr.small {
     background-size: cover;
     -o-background-size: cover;
     color: #FFA500;
+    font-family: "Noto Serif";
 }
 
 .faq {
