@@ -174,6 +174,20 @@ hr.small {
     padding: 50px 0;
 }
 
+.more-info {
+    padding: 50px 0;
+    background: url(../img/beckman.jpg) no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    color: #FFA500;
+}
+
+.more-info-item {
+    margin-bottom: 30px;
+}
+
 /* Services */
 
 .services {
@@ -183,6 +197,7 @@ hr.small {
 
 .service-item {
     margin-bottom: 30px;
+    display: block;
 }
 
 .social-media {
@@ -375,5 +390,5 @@ hr.small {
 /* Footer */
 
 footer {
-    padding: 100px 0;
+    padding: 50px 0;
 }
