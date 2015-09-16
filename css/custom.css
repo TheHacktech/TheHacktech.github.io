@@ -168,7 +168,6 @@ hr.small {
     color: #FFFFFF;
     text-align: center;
 }
-
 /* About */
 
 .about {
@@ -179,10 +178,15 @@ hr.small {
 
 .services {
     padding: 50px 0;
+    background-color: #FFA500;
 }
 
 .service-item {
     margin-bottom: 30px;
+}
+
+.social-media {
+    color: #FFA500;
 }
 
 /* Callout */
@@ -233,9 +237,133 @@ hr.small {
     height: 500px;
 }
 
-.column {
-    width: 33%;
-    float: left;
+#faqSlide {
+    color: white;
+    background-color: #F5841F;
+}
+
+#faqContainer {
+    /*padding-top: 60px;*/
+    /*padding-bottom: 60px;*/
+    padding: 60px 100px;
+}
+
+#faqTitle {
+    margin-bottom: 20px;
+}
+
+.faqModule {
+    padding: 20px;
+
+    /*margin: 20px;*/
+}
+
+.faqModule a {
+    color: #d35400; /* Pumpkin! */
+}
+
+.faqModule a:hover {
+    color: white;
+}
+
+.faqQuest {
+    font-size: 18px;
+    font-weight: bold;
+    color: #FFA500;
+}
+
+.faqAnswer {
+    font-size: 14px;
+}
+
+#faq-space {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+.faq-btn {
+    width: 100px;
+}
+
+.faq-more {
+    display: block;
+    /*height: 0px;*/
+    /*-webkit-transition: 2s;*/
+    /*transition: 2s;*/
+
+}
+
+#sponsorSlide {
+    color: black;
+}
+
+#sponsorContainer {
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+#sponsorTitle {
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+#sponsorHeader {
+    font-size: 20px;
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 40px;
+}   
+
+#sponsorMail {
+    color: black;
+    -webkit-transition: color 0.2s;
+    transition: color 0.2s;
+}
+
+#sponsorMail:hover, #sponsorMail:focus {
+    color: #d35400; /* Pumpkin! */
+    text-decoration: none;
+}
+
+.sponsor-row {
+    width: 100%;
+    text-align: center;
+}
+
+.sponsor-1 img {
+    height: 175px;
+}
+
+.sponsor-2 img {
+    height: 150px;
+}
+
+.sponsor-3 img {
+    height: 125px;
+}
+
+.sponsor-4 img {
+    height: 100px;
+}
+
+.sponsor-row img {
+    -webkit-filter: grayscale(95%);
+    filter: grayscale(95%);
+    opacity: 0.5;
+}
+
+.sponsor-row img:hover {
+    -webkit-filter: grayscale(0);
+    filter: grayscale(0);
+    opacity: 1;
+
+}
+
+.sponsor-break {
+    background-color: #000000;
+    height: 200px;
+    width: 100%;
 }
 
 @media(max-width:768px) {

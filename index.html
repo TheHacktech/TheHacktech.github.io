@@ -15,7 +15,7 @@
     <link href="css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Custom CSS -->
-    <link href="css/stylish-portfolio.css" rel="stylesheet">
+    <link href="css/custom.css" rel="stylesheet">
 
     <!-- Custom Fonts -->
     <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
@@ -44,13 +44,13 @@
                 <a href="#about" onclick = $("#menu-close").click(); >About</a>
             </li>
             <li>
-                <a href="#services" onclick = $("#menu-close").click(); >Services</a>
+                <a href="#faq" onclick = $("#menu-close").click(); >FAQ</a>
             </li>
             <li>
-                <a href="#portfolio" onclick = $("#menu-close").click(); >Portfolio</a>
+                <a href="#services" onclick = $("#menu-close").click(); >@Hack</a>
             </li>
             <li>
-                <a href="#contact" onclick = $("#menu-close").click(); >Contact</a>
+                <a href="#sponsor" onclick = $("#menu-close").click(); >Past Sponsors</a>
             </li>
         </ul>
     </nav>
@@ -83,21 +83,144 @@
     </section>
 
     <section id="faq" class="faq">
-        <div class="container">
-            <h1>FAQ</h1>
-            <br>
-            <div class="column">
-                <p class="lead">What is a hackathon?</p>
-                <p class="lead">Do I have to apply or just register</p>
+        <div class="container" id="faqContainer">
+        <h1 id="faqTitle" class="slide-title">FAQ</h1>
+        
+        <div class="row">
+          <div class="faqModule col-md-4">
+            <div class="faqQuest">
+              What is a <a href="https://medium.com/hackathons-anonymous/wtf-is-a-hackathon-92668579601">hackathon</a>?
             </div>
-            <div class="column">
-                <p class="lead">What should I create</p>
-                <p class="lead">What should I bring</p>
+            <div class="faqAnswer">
+              A hackathon is a place where the only thing limiting what you build is your own creativity. Stay up for 48 hours with the smartest people you'll ever meet, building the coolest things you have created and chugging more Red Bull than you ever thought possible.
             </div>
-            <div class="column">
-                <p class="lead">Who can come?</p>
-                <p class="lead">Do I sign up as a team or individual</p>
+          </div>
+          <div class="faqModule col-md-4">
+            <div class="faqQuest">
+              What should I create?
             </div>
+            <div class="faqAnswer">
+              You can build whatever you want: websites, apps, or hardware (no soldering allowed). All code must be written during the hackathon - feel free to use open source libraries and APIs. Hacks are judged on creativity, technical difficulty, usefulness, and overall awesomeness.
+            </div>
+          </div>
+          <div class="faqModule col-md-4">
+            <div class="faqQuest">
+              Who can come?
+            </div>
+            <div class="faqAnswer">
+              Any undergraduate or graduate students. We also admit high school students on a case-by-case basis.
+            </div>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="faqModule col-md-4">
+            <div class="faqQuest">
+              Do I have to apply or just register?
+            </div>
+            <div class="faqAnswer">
+              Anyone can come to hackTECH! However, there is an application process for awarding travel reimbursements. If you're out-of-state and want up to $200 travel reimbursed, apply here.
+            </div>
+          </div>
+          <div class="faqModule col-md-4">
+            <div class="faqQuest">
+              What should I bring?
+            </div>
+            <div class="faqAnswer">
+              You, an idea, photo ID, your hacking setup, clothes, toiletries, and a sleeping bag (for the weak).
+            </div>
+          </div>
+          <div class="faqModule col-md-4">
+            <div class="faqQuest">
+              Do I sign up as a team or individual?
+            </div>
+            <div class="faqAnswer">
+              You can sign up as a team of up to four members or as an individual. If you're an individual looking for team members, you will find tons of other smart people at the event to form a team.
+            </div>
+          </div>
+        </div>
+
+        <div class="faq-more">
+        <div class="row">
+          <div class="faqModule col-md-4">
+            <div class="faqQuest">
+              When does the event end?
+            </div>
+            <div class="faqAnswer">
+              The final awards and closing ceremony will end at 4pm on Sunday, March 1st. Shuttles to LAX will be available from 9am to 9pm on Sunday.
+            </div>
+          </div>
+          <div class="faqModule col-md-4">
+            <div class="faqQuest">
+              When should I arrive at the venue?
+            </div>
+            <div class="faqAnswer">
+              The opening ceremony starts at 9pm on Friday, February 27th. Be sure to find a place to stay if you plan on arriving before February 27th! There are plenty of cool places to check out if you get to LA early.
+            </div>
+          </div>
+          <div class="faqModule col-md-4">
+            <div class="faqQuest">
+              What if I'm from out-of-state and don't get chosen for a travel reimbursement?
+            </div>
+            <div class="faqAnswer">
+              We would still love to have you! You can still register and hack. The only difference is that we won't cover any of your travel expenses.
+            </div>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="faqModule col-md-4">
+            <div class="faqQuest">
+              How does the application process work for travel reimbursements?
+            </div>
+            <div class="faqAnswer">
+              We are using rolling admission, so get your applications in early. Applications for travel reimbursements are due February 5th. Don't worry if you haven't heard back about reimbursements yet! We're waiting on RSVPs from our first round of reimbursements and will be sending more out later.
+            </div>
+          </div>
+          <div class="faqModule col-md-4">
+            <div class="faqQuest">
+              I live in Northern California. How do I get to the event?
+            </div>
+            <div class="faqAnswer">
+              We will provide buses free of charge to the first 500 applicants from Northern California that say they need a bus on their registration. You can catch our buses at Berkeley or Stanford at 3:00pm on Friday, February 27th. We'll drop you off at Stanford or Berkeley at 10:00pm on Sunday. More details to come.
+            </div>
+          </div>
+          <div class="faqModule col-md-4">
+            <div class="faqQuest">
+              What if I'm flying from out of state?
+            </div>
+            <div class="faqAnswer">
+              We will provide free shuttles at LAX throughout Friday afternoon that will bring you directly to the venue and Sunday afternoon to take you back to the airport. More details to come.
+            </div>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="faqModule col-md-4">
+            <div class="faqQuest">
+              How does reimbursement work?
+            </div>
+            <div class="faqAnswer">
+              At the event, we will distribute reimbursement forms to individuals selected for $200 reimbursements. Following the event, we will do a direct transfer to your account.
+            </div>
+          </div>
+          <div class="faqModule col-md-4">
+            <div class="faqQuest">
+              How are hacks presented?
+            </div>
+            <div class="faqAnswer">
+              On Sunday at 12:00pm, all hackers will be able to demo their hacks to sponsors and their fellow hackers. Fifteen hacks will be selected based on submitted videos, and these teams/individuals will present their hacks to everyone for two minutes.
+            </div>
+          </div>
+          <div class="faqModule col-md-4">
+            <div class="faqQuest">
+              What other rules should I be aware of?
+            </div>
+            <div class="faqAnswer">
+              We're glad you asked! Alcohol is forbidden. Also, no soldering irons, open flames, or anything else you couldn't safely use in a stadium ( ask us if in doubt). No weapons, firearms, etc.
+            </div>
+          </div>
+        </div>
         </div>
     </section>
 
@@ -164,66 +287,99 @@
         <!-- /.container -->
     </section>
 
+    <section id="sponsor">
+        <div id="sponsorSlide" class="slide">
+          <div class="container" id="sponsorContainer">
+            <h1 id="sponsorTitle" class="slide-title">PAST SPONSORS</h1>
+            <h2 id="sponsorHeader">Want to sponsor us? Send us an <a id="sponsorMail" href="mailto:contact@hacktech.io" target="_top"><b>Email!</b></a></h2>
 
-    <!-- Portfolio -->
-    <section id="portfolio" class="portfolio">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-10 col-lg-offset-1 text-center">
-                    <h2>Our Work</h2>
-                    <hr class="small">
-                    <div class="row">
-                        <div class="col-md-6">
-                            <div class="portfolio-item">
-                                <a href="#">
-                                    <img class="img-portfolio img-responsive" src="img/portfolio-1.jpg">
-                                </a>
-                            </div>
-                        </div>
-                        <div class="col-md-6">
-                            <div class="portfolio-item">
-                                <a href="#">
-                                    <img class="img-portfolio img-responsive" src="img/portfolio-2.jpg">
-                                </a>
-                            </div>
-                        </div>
-                        <div class="col-md-6">
-                            <div class="portfolio-item">
-                                <a href="#">
-                                    <img class="img-portfolio img-responsive" src="img/portfolio-3.jpg">
-                                </a>
-                            </div>
-                        </div>
-                        <div class="col-md-6">
-                            <div class="portfolio-item">
-                                <a href="#">
-                                    <img class="img-portfolio img-responsive" src="img/portfolio-4.jpg">
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- /.row (nested) -->
-                    <a href="#" class="btn btn-dark">View More Items</a>
-                </div>
-                <!-- /.col-lg-10 -->
+            <div class="row sponsor-row sponsor-4">
+              <a><img src="img/sponsors/a16z.png"></a>
+              <a><img src="img/sponsors/advantest.png"></a>
+              <a><img src="img/sponsors/alp.jpg"></a>        
+              <a><img src="img/sponsors/apigee.png"></a>
             </div>
-            <!-- /.row -->
+
+            <div class="row sponsor-row sponsor-4">
+              <a><img src="img/sponsors/aws.png"></a>
+              <a><img src="img/sponsors/bloomberg.jpg"></a>
+              <a><img src="img/sponsors/bruin_entrepreneurs.jpg"></a>
+              <a><img src="img/sponsors/caltech_fund.png"></a>
+            </div>
+            
+            <div class="row sponsor-row sponsor-4">
+              <a><img src="img/sponsors/cisco.png"></a>
+              <a><img src="img/sponsors/cloudera.png"></a>
+              <a><img src="img/sponsors/cyberverse.jpg"></a>
+              <a><img src="img/sponsors/digitalocean.png"></a>
+            </div>
+
+            <div class="row sponsor-row sponsor-4">
+              <a><img src="img/sponsors/directv.jpg"></a>
+              <a><img src="img/sponsors/dropbox.png"></a>
+              <a><img src="img/sponsors/ebay.png"></a>
+              <a><img src="img/sponsors/EMC.png"></a>
+            </div>
+
+            <div class="row sponsor-row sponsor-4">
+              <a><img src="img/sponsors/firebase.png"></a>
+              <a><img src="img/sponsors/fitbit.png"></a>
+              <a><img src="img/sponsors/google.png"></a>
+              <a><img src="img/sponsors/lithium.png"></a>
+            </div>
+
+            <div class="row sponsor-row sponsor-4">
+              <a><img src="img/sponsors/lob.png"></a>
+              <a><img src="img/sponsors/mashery.jpg"></a>
+              <a><img src="img/sponsors/microsoft.jpg"></a>
+              <a><img src="img/sponsors/miteksystems.png"></a>
+            </div>
+
+            <div class="row sponsor-row sponsor-4">
+              <a><img src="img/sponsors/mongodb.png"></a>
+              <a><img src="img/sponsors/namecheap.jpg"></a>
+              <a><img src="img/sponsors/nanotronics.png"></a>
+              <a><img src="img/sponsors/pebble.png"></a>
+            </div>
+
+            <div class="row sponsor-row sponsor-4">
+              <a><img src="img/sponsors/pinterest.png"></a>
+              <a><img src="img/sponsors/progress.png"></a>
+              <a><img src="img/sponsors/rackspace.jpg"></a>
+              <a><img src="img/sponsors/realnetworks.jpg"></a>
+            </div>
+
+            <div class="row sponsor-row sponsor-4">
+              <a><img src="img/sponsors/red_bull.png"></a>
+              <a><img src="img/sponsors/roc.jpg"></a>
+              <a><img src="img/sponsors/rocketfuel.jpg"></a>
+              <a><img src="img/sponsors/sendgrid.png"></a>
+            </div>
+
+            <div class="row sponsor-row sponsor-4">
+              <a><img src="img/sponsors/sequoia_capital.png"></a>
+              <a><img src="img/sponsors/spacex.png"></a>
+              <a><img src="img/sponsors/stickermule.png"></a>
+              <a><img src="img/sponsors/thiel.png"></a>
+            </div>
+
+            <div class="row sponsor-row sponsor-4">
+              <a><img src="img/sponsors/tigertext.png"></a>
+              <a><img src="img/sponsors/twilio.png"></a>
+              <a><img src="img/sponsors/venmo.png"></a>
+              <a><img src="img/sponsors/whisper.png"></a>
+            </div>
+
+            <div class="row sponsor-row sponsor-4">
+              <a><img src="img/sponsors/wix.png"></a>
+              <a><img src="img/sponsors/wunderground.png"></a>
+            </div>
+          </div>
         </div>
-        <!-- /.container -->
     </section>
 
-    <!-- Call to Action -->
-    <aside class="call-to-action bg-primary">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h3>The buttons below are impossible to resist.</h3>
-                    <a href="#" class="btn btn-lg btn-light">Click Me!</a>
-                    <a href="#" class="btn btn-lg btn-dark">Look at Me!</a>
-                </div>
-            </div>
-        </div>
-    </aside>
+    <div class="sponsor-break">
+    </div>
 
     <!-- Footer -->
     <footer>
@@ -237,16 +393,16 @@
                         </li>
                     </ul>
                     <br>
-                    <ul class="list-inline">
-                        <li>
-                            <a href="https://www.facebook.com/thehacktech?fref=ts" target="_blank"><i class="fa fa-facebook fa-fw fa-3x"></i></a>
-                        </li>
-                        <li>
-                            <a href="https://twitter.com/thehacktech" target="_blank"><i class="fa fa-twitter fa-fw fa-3x"></i></a>
-                        </li>
-                    </ul>
+                        <ul class="list-inline">
+                            <li>
+                                <a href="https://www.facebook.com/thehacktech?fref=ts" target="_blank"><i class="fa fa-facebook fa-fw fa-3x"></i></a>
+                            </li>
+                            <li>
+                                <a href="https://twitter.com/thehacktech" target="_blank"><i class="fa fa-twitter fa-fw fa-3x"></i></a>
+                            </li>
+                        </ul>
                     <hr class="small">
-                    <p class="text-muted">Copyright &copy; Hacktech Team</p>
+                    <p class="text-muted">Copyright &copy; Advith Chelikani + Hacktech Team</p>
                 </div>
             </div>
         </div>
@@ -260,6 +416,11 @@
 
     <!-- Custom Theme JavaScript -->
     <script>
+
+    $('#faqMore').on("click", function() {
+        $('#faq-more').fadeToggle(750);
+     });
+
     // Closes the sidebar menu
     $("#menu-close").click(function(e) {
         e.preventDefault();
