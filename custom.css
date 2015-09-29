@@ -151,6 +151,7 @@ hr.small {
 /* Header */
 
 .header {
+    padding-top: 40px;
     display: table;
     position: relative;
     width: 100%;
@@ -166,8 +167,6 @@ hr.small {
     font-family: "Noto Serif";
 }
 
-.faq {
-    background: #000000;
-    color: #FFFFFF;
-    text-align: center;
+.footer {
+    height: 40px;
 }
