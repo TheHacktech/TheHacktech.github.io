@@ -164,7 +164,8 @@ hr.small {
     -o-background-size: cover;
     */
     color: #F48430;
-    font-family: "Noto Serif";
+    font-family: "Raleway", sans-serif;
+    font-weight: 300;
 }
 
 .footer {
