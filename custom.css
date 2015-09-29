@@ -1,0 +1,397 @@
+/*!
+ * Start Bootstrap - Stylish Portfolio Bootstrap Theme (http://startbootstrap.com)
+ * Code licensed under the Apache License v2.0.
+ * For details, see http://www.apache.org/licenses/LICENSE-2.0.
+ */
+
+/* Global Styles */
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    font-family: "Source Sans Pro","Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+.text-vertical-center {
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.text-vertical-center h1 {
+    margin: 0;
+    padding: 0;
+    font-size: 4.5em;
+    font-weight: 700;
+}
+
+/* Custom Button Styles */
+
+.btn-dark {
+    border-radius: 0;
+    color: #fff;
+    background-color: #F48430;
+}
+
+.btn-dark:hover,
+.btn-dark:focus,
+.btn-dark:active {
+    color: #F48430;
+    background-color: #ffffff;
+}
+
+.btn-light {
+    border-radius: 0;
+    color: #333;
+    background-color: rgb(255,255,255);
+}
+
+.btn-light:hover,
+.btn-light:focus,
+.btn-light:active {
+    color: #333;
+    background-color: rgba(255,255,255,0.8);
+}
+
+/* Custom Horizontal Rule */
+
+hr.small {
+    max-width: 100px;
+}
+
+/* Side Menu */
+
+#sidebar-wrapper {
+    z-index: 1000;
+    position: fixed;
+    right: 0;
+    width: 250px;
+    height: 100%;
+    margin-right: -250px;
+    overflow-y: auto;
+    background: #222;
+    -webkit-transition: all 0.4s ease 0s;
+    -moz-transition: all 0.4s ease 0s;
+    -ms-transition: all 0.4s ease 0s;
+    -o-transition: all 0.4s ease 0s;
+    transition: all 0.4s ease 0s;
+}
+
+.sidebar-nav {
+    position: absolute;
+    top: 0;
+    width: 250px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.sidebar-nav li {
+    text-indent: 20px;
+    line-height: 40px;
+}
+
+.sidebar-nav li a {
+    display: block;
+    text-decoration: none;
+    color: #999;
+}
+
+.sidebar-nav li a:hover {
+    text-decoration: none;
+    color: #fff;
+    background: rgba(255,255,255,0.2);
+}
+
+.sidebar-nav li a:active,
+.sidebar-nav li a:focus {
+    text-decoration: none;
+}
+
+.sidebar-nav > .sidebar-brand {
+    height: 55px;
+    font-size: 18px;
+    line-height: 55px;
+}
+
+.sidebar-nav > .sidebar-brand a {
+    color: #999;
+}
+
+.sidebar-nav > .sidebar-brand a:hover {
+    color: #fff;
+    background: none;
+}
+
+#menu-toggle {
+    z-index: 1;
+    position: fixed;
+    top: 0;
+    right: 0;
+}
+
+#sidebar-wrapper.active {
+    right: 250px;
+    width: 250px;
+    -webkit-transition: all 0.4s ease 0s;
+    -moz-transition: all 0.4s ease 0s;
+    -ms-transition: all 0.4s ease 0s;
+    -o-transition: all 0.4s ease 0s;
+    transition: all 0.4s ease 0s;
+}
+
+.toggle {
+    margin: 5px 5px 0 0;
+}
+
+/* Header */
+
+.header {
+    display: table;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background: #000000;
+    /* background: url(updatebg.png) no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    */
+    color: #F48430;
+    font-family: "Noto Serif";
+}
+
+.faq {
+    background: #000000;
+    color: #FFFFFF;
+    text-align: center;
+}
+/* About */
+
+.about {
+    padding: 50px 0;
+}
+
+.more-info {
+    padding: 50px 0;
+    background: url(../img/beckman.jpg) no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    color: #FFA500;
+}
+
+.more-info-item {
+    margin-bottom: 30px;
+}
+
+/* Services */
+
+.services {
+    padding: 50px 0;
+    background-color: #FFA500;
+}
+
+.service-item {
+    margin-bottom: 30px;
+    display: block;
+}
+
+.social-media {
+    color: #FFA500;
+}
+
+/* Callout */
+
+.callout {
+    display: table;
+    width: 100%;
+    height: 400px;
+    color: #fff;
+    background: #FFA500;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+/* Portfolio */
+
+.portfolio {
+    padding: 50px 0;
+}
+
+.portfolio-item {
+    margin-bottom: 30px;
+}
+
+.img-portfolio {
+    margin: 0 auto;
+}
+
+.img-portfolio:hover {
+    opacity: 0.8;
+}
+
+/* Call to Action */
+
+.call-to-action {
+    padding: 50px 0;
+}
+
+.call-to-action .btn {
+    margin: 10px;
+}
+
+/* Map */
+
+.map {
+    height: 500px;
+}
+
+#faqSlide {
+    color: white;
+    background-color: #F5841F;
+}
+
+#faqContainer {
+    /*padding-top: 60px;*/
+    /*padding-bottom: 60px;*/
+    padding: 60px 100px;
+}
+
+#faqTitle {
+    margin-bottom: 20px;
+}
+
+.faqModule {
+    padding: 20px;
+
+    /*margin: 20px;*/
+}
+
+.faqModule a {
+    color: #d35400; /* Pumpkin! */
+}
+
+.faqModule a:hover {
+    color: white;
+}
+
+.faqQuest {
+    font-size: 18px;
+    font-weight: bold;
+    color: #FFA500;
+}
+
+.faqAnswer {
+    font-size: 14px;
+}
+
+#faq-space {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+.faq-btn {
+    width: 100px;
+}
+
+.faq-more {
+    display: block;
+    /*height: 0px;*/
+    /*-webkit-transition: 2s;*/
+    /*transition: 2s;*/
+
+}
+
+#sponsorSlide {
+    color: black;
+}
+
+#sponsorContainer {
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+#sponsorTitle {
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+#sponsorHeader {
+    font-size: 20px;
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 40px;
+}   
+
+#sponsorMail {
+    color: black;
+    -webkit-transition: color 0.2s;
+    transition: color 0.2s;
+}
+
+#sponsorMail:hover, #sponsorMail:focus {
+    color: #d35400; /* Pumpkin! */
+    text-decoration: none;
+}
+
+.sponsor-row {
+    width: 100%;
+    text-align: center;
+}
+
+.sponsor-1 img {
+    height: 175px;
+}
+
+.sponsor-2 img {
+    height: 150px;
+}
+
+.sponsor-3 img {
+    height: 125px;
+}
+
+.sponsor-4 img {
+    height: 100px;
+}
+
+.sponsor-row img {
+    -webkit-filter: grayscale(95%);
+    filter: grayscale(95%);
+    opacity: 0.5;
+}
+
+.sponsor-row img:hover {
+    -webkit-filter: grayscale(0);
+    filter: grayscale(0);
+    opacity: 1;
+
+}
+
+.sponsor-break {
+    background-color: #000000;
+    height: 200px;
+    width: 100%;
+}
+
+@media(max-width:768px) {
+    .map {
+        height: 75%;
+    }
+}
+
+/* Footer */
+
+footer {
+    padding: 50px 0;
+}
