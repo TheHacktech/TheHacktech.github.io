@@ -1,0 +1,337 @@
+@import url(https://fonts.googleapis.com/css?family=Raleway);
+@import url(https://fonts.googleapis.com/css?family=Roboto);
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box; 
+}
+
+body {
+  min-height: 100vh;
+  display: flex; 
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+p, div {
+  font-family: 'Roboto', sans-serif;
+}
+
+#wrapper {
+  display: flex;
+  flex-direction: row;
+  flex: 1; 
+}
+
+/*Sidebar stuff*/
+
+#sidebar {
+  flex: 0 0 375px;
+  width: 400px;
+  height: 100%;
+  background-color: #3D3A3A;
+  color: #F48430;
+  position: fixed; 
+}
+
+#sidebar .wrapper {
+  margin: 0 auto;
+  text-align: center;
+}
+
+#sidebar .icon {
+  margin-top: 30%;
+  width: 100px;
+}
+
+#sidebar p {
+  font-family: 'Raleway', sans-serif;
+}
+
+#sidebar p.name {
+  margin-top: 10px;
+  font-size: 60px;
+  letter-spacing: 1.3px;
+}
+
+#sidebar p.info {
+  margin-top: -10px;
+  font-size: 23px;
+}
+
+#sidebar p.slogan {
+  font-size: 14px;
+  margin-top: 10px;
+}
+
+#sidebar .links{
+  font-family: 'Roboto', sans-serif;
+  margin-top: 30px;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+#sidebar .links li {
+  display: block;
+  margin: 10px 0px;
+}
+
+#sidebar .links a {
+  color: #F48430;
+  text-decoration: none;
+  transition: width .5s ease, background-color .5s ease;
+}
+
+#sidebar .links a:after {
+  content: '';
+  display: block;
+  height: 1px;
+  width: 0;
+  margin: 0px auto;
+  background: transparent;
+  transition: width .5s ease, background-color .5s ease;
+}
+
+#sidebar .links a:hover:after {
+  margin: 0px auto;
+  background: #F48430;
+}
+
+#sidebar .links li.apply a:hover:after {
+  width: 60px;
+}
+
+#sidebar .links li.about a:hover:after {
+  width: 60px;
+}
+
+#sidebar .links li.faq a:hover:after {
+  width: 40px;
+}
+
+#sidebar .links li.sponsors a:hover:after {
+  width: 88px;
+}
+
+#sidebar .links li.contact a:hover:after {
+  width: 100px;
+}
+
+#sidebar .social {
+  text-align: center;
+  margin-top: 30px;
+}
+
+#sidebar .social .socialicon {
+  max-height: 30px;
+  margin: 0px 15px;
+}
+
+/*Container stuff*/
+
+.container {
+  margin-left: 400px;
+  color: #3D3A3A;
+  width: 100%;
+}
+
+.container .content {
+  margin-top: 50px;
+  margin-left: 50px;
+  padding-right: 50px;
+}
+
+/*About stuff*/
+
+#about {
+  margin-top: 0px;
+}
+
+#about h3 {
+  font-size: 23px;
+}
+
+#about p {
+  margin-left: 10px;
+  margin-bottom: 10px;
+}
+
+#about p a {
+  color: #F48430;
+  text-decoration: none;
+}
+
+/*FAQ stuff*/
+#faq {
+  margin-top: 60px;
+}
+
+#faq.header {
+  font-size: 30px;
+  color: #F48430;
+  margin-bottom: 10px;
+}
+
+hr {
+  color: #F48430;
+  background-color: #F48430;
+  height: 3px;
+  border: 0 none;
+  width: 100%;
+}
+
+.container .faqstuff{
+    margin-top: -6px;
+    margin-left: -52px;
+    margin-right: -52px;
+    display: table;
+    border-collapse: separate;
+    border-spacing: 52px 37px; 
+}
+
+.container .faqstuff .faqrow {
+  display: flex;
+  flex-wrap: wrap; 
+}
+
+.container .faqstuff .faqrow:first-child {
+  margin-top: 0; 
+}
+
+.container .faqstuff .faqelement {
+  margin-bottom: 37px;
+  width: calc(50% - 48px); 
+}
+
+.container .faqstuff .faqelement .question {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.container .faqstuff .faqelement .answer {
+  font-size: 16px; 
+}
+
+.container .faqstuff .faqelement .answer a{
+  color: #F48430;
+  text-decoration: none;
+}
+
+.container .faqstuff:after {
+  clear: both; 
+}
+
+.faqelement:nth-child(odd) {
+  margin-right: 52px; 
+}
+
+/*Sponsors stuff*/
+
+#sponsors {
+  margin-top: 10px;
+}
+
+#sponsors.header {
+  font-size: 30px;
+  color: #F48430;
+  margin-bottom: 10px;
+}
+
+.container .sponsorstuff {
+  text-align: center;
+  margin-top: 30px;
+}
+
+.container .sponsorstuff .sponsor {
+  display: inline-block;
+  max-height: 100px;
+  margin: 20px 20px;
+  opacity: 0.55;
+  -webkit-transition-duration: .5s;
+  -moz-transition-duration: .5s;
+  -o-transition-duration: .5s;
+  transition-duration: .5s;
+}
+
+.container .sponsorstuff .sponsor:hover {
+  opacity: 1.0;
+  -webkit-transition-duration: .5s;
+  -moz-transition-duration: .5s;
+  -o-transition-duration: .5s;
+  transition-duration: .5s;
+}
+
+/*Scrollbar stuff*/
+
+::-webkit-scrollbar {
+    width: 12px;
+}
+ 
+/* Track */
+::-webkit-scrollbar-track {
+  background: #3D3A3A;
+}
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #F48430; 
+}
+::-webkit-scrollbar-thumb:window-inactive {
+  background: #F48430; 
+}
+
+/*Small-screen adjustments*/
+
+@media screen and (max-width: 1200px) {
+  #wrapper {
+    flex-direction: column; }
+
+  #sidebar {
+    position: relative;
+    width: 100%;
+    height: 378px;
+    flex: 1; 
+  }
+
+  #sidebar .icon {
+    margin-top: 40px;
+    height: 100px; 
+    width: auto;
+  }
+
+  #sidebar .social{
+    margin-top: 20px;
+  }
+
+  #sidebar .socialicon{
+    max-width: 20px;
+  }
+
+  .container {
+    margin-left: 0; 
+  }
+
+  #sidebar .links {
+    margin-top: 10px;
+    text-align: center;
+  }
+
+  #sidebar .links li{
+    display: inline;
+    margin: 0px 5px;
+    font-size: 10px;
+  }
+
+  #sidebar .links a:after {
+    display: inline;
+  }
+
+  .container .faqstuff .faqelement {
+    width: 100%;
+    margin-right: 0; 
+  } 
+
+  .container .sponsorstuff .sponsor {
+    max-height: 50px;
+  }
+}
