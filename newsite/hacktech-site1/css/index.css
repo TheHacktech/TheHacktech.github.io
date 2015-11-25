@@ -42,7 +42,7 @@ p, div {
 
 #sidebar .icon {
   margin-top: 50px;
-  width: 100px;
+  width: 120px;
 }
 
 #sidebar p {
@@ -280,6 +280,50 @@ hr {
 ::-webkit-scrollbar-thumb:window-inactive {
   background: #F48430; 
 }
+
+.button{text-decoration:none; text-align:center; 
+ padding:11px 32px; 
+ border:solid 1px #f48530; 
+ -webkit-border-radius:4px;
+ -moz-border-radius:4px; 
+ border-radius: 4px; 
+ font:18px font-family: 'Roboto', sans-serif; 
+ font-weight:bold; 
+ color:#3d3a3a; 
+ background:#f48530; 
+ -webkit-box-shadow:0px 0px 2px #f48530, inset 0px 0px 1px #f48530; 
+ -moz-box-shadow: 0px 0px 2px #f48530,  inset 0px 0px 1px #f48530;  
+ box-shadow:0px 0px 2px #f48530, inset 0px 0px 1px #f48530;  
+  
+  }.button:hover{
+ padding:11px 32px; 
+ border:solid 1px #3d3a3a; 
+ -webkit-border-radius:4px;
+ -moz-border-radius:4px; 
+ border-radius: 4px; 
+ font:18px font-family: 'Roboto', sans-serif; 
+ font-weight:bold; 
+ color:#f48530; 
+ background:#3d3a3a; 
+ -webkit-box-shadow:0px 0px 2px #3d3a3a, inset 0px 0px 1px #3d3a3a; 
+ -moz-box-shadow: 0px 0px 2px #3d3a3a,  inset 0px 0px 1px #3d3a3a;  
+ box-shadow:0px 0px 2px #3d3a3a, inset 0px 0px 1px #3d3a3a;  
+  
+ }.button:active{
+ padding:11px 32px; 
+ border:solid 1px #f48530; 
+ -webkit-border-radius:4px;
+ -moz-border-radius:4px; 
+ border-radius: 4px; 
+ font:18px font-family: 'Roboto', sans-serif; 
+ font-weight:bold; 
+ color:#3d3a3a; 
+ background:#f48530; 
+ -webkit-box-shadow:0px 0px 2px #f48530, inset 0px 0px 1px #f48530; 
+ -moz-box-shadow: 0px 0px 2px #f48530,  inset 0px 0px 1px #f48530;  
+ box-shadow:0px 0px 2px #f48530, inset 0px 0px 1px #f48530;  
+  
+ }
 
 /*Small-screen adjustments*/
 
