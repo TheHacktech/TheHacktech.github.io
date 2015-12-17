@@ -24,6 +24,46 @@ p, div {
   flex: 1; 
 }
 
+/* MLH STUFF */
+#mlhbadge {
+  width: 15%;
+  position: absolute;
+}
+
+#partners {
+  margin-top: 10px;
+}
+
+#partners.header {
+  font-size: 30px;
+  color: #F48430;
+  margin-bottom: 10px;
+}
+
+.container .partnerstuff {
+/*  text-align: center;*/
+  margin-top: 30px;
+}
+
+.container .partnerstuff .partner {
+  display: inline-block;
+  max-height: 100px;
+  margin: 20px 20px;
+  opacity: 0.55;
+  -webkit-transition-duration: .5s;
+  -moz-transition-duration: .5s;
+  -o-transition-duration: .5s;
+  transition-duration: .5s;
+}
+
+.container .partnerstuff .partner:hover {
+  opacity: 1.0;
+  -webkit-transition-duration: .5s;
+  -moz-transition-duration: .5s;
+  -o-transition-duration: .5s;
+  transition-duration: .5s;
+}
+
 /*Sidebar stuff*/
 
 #sidebar {
@@ -154,7 +194,7 @@ p, div {
 }
 
 #about p {
-  margin-left: 10px;
+  margin-right: 10px;
   margin-bottom: 10px;
 }
 
