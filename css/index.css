@@ -1,6 +1,12 @@
 @import url(https://fonts.googleapis.com/css?family=Raleway);
 @import url(https://fonts.googleapis.com/css?family=Roboto);
 
+@font-face {
+  font-family: 'GeosansLight';
+  src: url('../fonts/GeosansLight.eot');
+  src: url('../fonts/GeosansLight.ttf');
+}
+
 * {
   padding: 0;
   margin: 0;
@@ -86,13 +92,13 @@ p, div {
 }
 
 #sidebar p {
-  font-family: 'Raleway', sans-serif;
+  font-family: 'GeosansLight', 'Raleway', sans-serif;
 }
 
 #sidebar p.name {
   margin-top: 10px;
   font-size: 60px;
-  letter-spacing: 1.3px;
+  letter-spacing: -2px;
 }
 
 #sidebar p.info {
@@ -190,7 +196,10 @@ p, div {
 }
 
 #about h3 {
-  font-size: 23px;
+  font-size: 36px;
+  margin-bottom: 5px;
+  color: #F48430;
+  font-family: 'GeosansLight', 'Raleway', sans-serif;
 }
 
 #about p {
@@ -223,15 +232,19 @@ hr {
 }
 
 .container .faqstuff{
-    margin-top: -6px;
-    margin-left: -52px;
-    margin-right: -52px;
-    display: table;
-    border-collapse: separate;
-    border-spacing: 52px 37px; 
+    margin-top: 15px;
 }
 
-.container .faqstuff .faqrow {
+.container .faqstuff .faqelement {
+  margin-bottom: 13px;
+  line-height: 130%;
+}
+/*    display: table;
+    border-collapse: separate;
+    border-spacing: 52px 37px; 
+}*/
+
+/*.container .faqstuff .faqrow {
   display: flex;
   flex-wrap: wrap; 
 }
@@ -244,10 +257,11 @@ hr {
   margin-bottom: 37px;
   width: calc(50% - 48px); 
 }
-
+*/
 .container .faqstuff .faqelement .question {
-  font-size: 18px;
+  font-size: 20px;
   font-weight: bold;
+  line-height: 150%;
 }
 
 .container .faqstuff .faqelement .answer {
@@ -259,14 +273,32 @@ hr {
   text-decoration: none;
 }
 
+.container .faqstuff .faqelement .subquestion {
+  font-size: 16px;
+  font-weight: bold;
+  margin-left: 30px;
+  line-height: 150%;
+  margin-top: 5px;
+}
+
+.container .faqstuff .faqelement .subanswer {
+  font-size: 14px;
+  margin-left: 30px;
+}
+
+.container .faqstuff .faqelement .subanswer a{
+  color: #F48430;
+  text-decoration: none;
+}
+
 .container .faqstuff:after {
   clear: both; 
 }
 
-.faqelement:nth-child(odd) {
+/*.faqelement:nth-child(odd) {
   margin-right: 52px; 
 }
-
+*/
 /*Sponsors stuff*/
 
 #sponsors {
@@ -334,6 +366,10 @@ hr {
  -webkit-box-shadow:0px 0px 2px #f48530, inset 0px 0px 1px #f48530; 
  -moz-box-shadow: 0px 0px 2px #f48530,  inset 0px 0px 1px #f48530;  
  box-shadow:0px 0px 2px #f48530, inset 0px 0px 1px #f48530;  
+   -webkit-transition-duration: .5s;
+  -moz-transition-duration: .5s;
+  -o-transition-duration: .5s;
+  transition-duration: .5s;
   
   }.button:hover{
  padding:11px 32px; 
@@ -348,6 +384,10 @@ hr {
  -webkit-box-shadow:0px 0px 2px #3d3a3a, inset 0px 0px 1px #3d3a3a; 
  -moz-box-shadow: 0px 0px 2px #3d3a3a,  inset 0px 0px 1px #3d3a3a;  
  box-shadow:0px 0px 2px #3d3a3a, inset 0px 0px 1px #3d3a3a;  
+   -webkit-transition-duration: .5s;
+  -moz-transition-duration: .5s;
+  -o-transition-duration: .5s;
+  transition-duration: .5s;
   
  }.button:active{
  padding:11px 32px; 
@@ -362,6 +402,10 @@ hr {
  -webkit-box-shadow:0px 0px 2px #f48530, inset 0px 0px 1px #f48530; 
  -moz-box-shadow: 0px 0px 2px #f48530,  inset 0px 0px 1px #f48530;  
  box-shadow:0px 0px 2px #f48530, inset 0px 0px 1px #f48530;  
+   -webkit-transition-duration: .5s;
+  -moz-transition-duration: .5s;
+  -o-transition-duration: .5s;
+  transition-duration: .5s;
   
  }
 
