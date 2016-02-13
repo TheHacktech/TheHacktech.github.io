@@ -79,6 +79,7 @@ p, div {
   background-color: #3D3A3A;
   color: #F48430;
   position: fixed; 
+  overflow-y: scroll;
 }
 
 #sidebar .wrapper {
