@@ -16,9 +16,17 @@ var schedule = [
 },
 
 {
+  title: "Soylent!",
+  caption: "",
+  time: {day: "fri", start: "11:45PM", duration: "1:00"},
+  location: "Winnett",
+  event_type: "Main timeline",
+},
+
+{
   title: "Midnight Snack",
   caption: "",
-  time: {day: "sat", start: "2:00AM", duration: "1:00"},
+  time: {day: "sat", start: "2:30AM", duration: "1:00"},
   location: "Avery",
   event_type: "Main timeline",
 },
@@ -43,6 +51,14 @@ var schedule = [
   title: "Dinner",
   caption: "",
   time: {day: "sat", start: "6:00PM", duration: "1:00"},
+  location: "Chandler",
+  event_type: "Main timeline"
+},
+
+{
+  title: "Monster!",
+  caption: "",
+  time: {day: "sat", start: "8:00PM", duration: "2:00"},
   location: "Chandler",
   event_type: "Main timeline"
 },
@@ -74,40 +90,40 @@ var schedule = [
 // workshops
 
 {
-  title: "Intro to Game Development",
-  caption: "",
-  time: {day: "sat", start: "1:00AM", duration: "1:00"},
+  title: "Using the MEAN Stack For Your Hack",
+  caption: "Microsoft",
+  time: {day: "sat", start: "12:00AM", duration: "1:00"},
   location: "Winnett",
   event_type: "Workshops"
 },
 
 {
-  title: "Using the Cloud in your App",
-  caption: "",
-  time: {day: "sat", start: "10:00AM", duration: "1:00"},
+  title: "Intro to Game Dev with Unity",
+  caption: "Microsoft",
+  time: {day: "sat", start: "1:30AM", duration: "1:00"},
   location: "Winnett",
   event_type: "Workshops"
 },
 
 {
   title: "Venture Capital: From Idea to Startup",
-  caption: "",
+  caption: "KPCB",
   time: {day: "sat", start: "3:00PM", duration: "1:00"},
   location: "Winnett",
   event_type: "Workshops"
 },
 
 {
-  title: "Finance in Technology",
-  caption: "",
+  title: "Technology in Finance",
+  caption: "Quantiacs",
   time: {day: "sat", start: "4:30PM", duration: "1:00"},
   location: "Winnett",
   event_type: "Workshops"
 },
 
 {
-  title: "Mentor Recruitment",
-  caption: "",
+  title: "Join the Mentor Army",
+  caption: "Hacker Fund",
   time: {day: "sat", start: "7:00PM", duration: "1:00"},
   location: "Winnett",
   event_type: "Workshops"
@@ -149,10 +165,34 @@ var schedule = [
 },
 
 {
+  title: "Life-size Jenga",
+  caption: "",
+  time: {day:"sat", start:"2:30AM", duration:"1:30"},
+  location: "Avery Courtyard",
+  event_type: "events",
+},
+
+{
   title: "Watermelon Eating Contest",
   caption: "",
   time: {day: "sat", start: "12:30PM", duration: "1:00"},
   location: "Avery Courtyard",
+  event_type: "events"
+},
+
+{
+  title: "Cup Stacking with Swift",
+  caption: "",
+  time: {day: "sat", start: "2:00PM", duration: "1:00"},
+  location: "Winnett",
+  event_type: "events"
+},
+
+{
+  title: "Minesweeper Tournament",
+  caption: "",
+  time: {day: "sat", start: "5:30PM", duration: "1:30"},
+  location: "Winnett",
   event_type: "events"
 },
 
@@ -164,6 +204,21 @@ var schedule = [
   event_type: "events"
 },
 
+{
+  title: "Powerade Contest",
+  caption: "",
+  time: {day: "sat", start: "10:15PM", duration: "0:45"},
+  location: "Winnett",
+  event_type: "events"
+},
+
+{
+  title: "Bubble Wrap & Air Pillow Party",
+  caption: "",
+  time: {day: "sun", start: "1:00AM", duration: "1:00"},
+  location: "Winnett",
+  event_type: "events"
+},
 
 {
   title: "Project Expo",

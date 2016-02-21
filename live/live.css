@@ -122,6 +122,10 @@ i {
   width: 55px;
 }
 
+#sidebar .links li.guide a:hover:after {
+  width: 50px;
+}
+
 #sidebar .links li.contact a:hover:after {
   width: 100px;
 }
