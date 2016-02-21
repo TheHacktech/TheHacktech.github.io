@@ -198,7 +198,7 @@ var schedule = [
 
 {
   title: "Anime Watching",
-  caption: "Vote for an anime here!",
+  caption: "",
   time: {day: "sat", start: "8:00PM", duration: "2:00"},
   location: "Avery",
   event_type: "events"
