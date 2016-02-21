@@ -18,7 +18,7 @@ var schedule = [
 {
   title: "Soylent!",
   caption: "",
-  time: {day: "fri", start: "11:45PM", duration: "1:00"},
+  time: {day: "fri", start: "11:30PM", duration: "1:00"},
   location: "Winnett",
   event_type: "Main timeline",
 },
@@ -165,10 +165,10 @@ var schedule = [
 },
 
 {
-  title: "Life-size Jenga",
+  title: "Cup Stacking with Swift",
   caption: "",
-  time: {day:"sat", start:"2:30AM", duration:"1:30"},
-  location: "Avery Courtyard",
+  time: {day:"sat", start:"2:30AM", duration:"1:00"},
+  location: "Chandler",
   event_type: "events",
 },
 
@@ -181,7 +181,7 @@ var schedule = [
 },
 
 {
-  title: "Cup Stacking with Swift",
+  title: "Life-size Jenga",
   caption: "",
   time: {day: "sat", start: "2:00PM", duration: "1:00"},
   location: "Winnett",
@@ -192,12 +192,12 @@ var schedule = [
   title: "Minesweeper Tournament",
   caption: "",
   time: {day: "sat", start: "5:30PM", duration: "1:30"},
-  location: "Winnett",
+  location: "Annenberg 105",
   event_type: "events"
 },
 
 {
-  title: "Weebs@Hacktech Mixer",
+  title: "Anime Watching",
   caption: "Vote for an anime here!",
   time: {day: "sat", start: "8:00PM", duration: "2:00"},
   location: "Avery",
@@ -205,10 +205,10 @@ var schedule = [
 },
 
 {
-  title: "Powerade Contest",
+  title: "Powerade Contest?",
   caption: "",
   time: {day: "sat", start: "10:15PM", duration: "0:45"},
-  location: "Winnett",
+  location: "Chandler",
   event_type: "events"
 },
 
