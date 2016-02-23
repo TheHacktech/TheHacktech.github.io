@@ -72,19 +72,20 @@ var schedule = [
 },
 
 {
-  title: "Breakfast",
+  title: "Coffee and Pasteries!",
   caption: "",
-  time: {day: "sun", start: "8:00AM", duration: "1:00"},
-  location: "Chandler",
+  time: {day: "sun", start: "7:00AM", duration: "4:00"},
+  location: "Red Door Cafe",
   event_type: "Main timeline"
 },
 
 {
-  title: "Lunch",
+  title: "Brunch",
   caption: "",
-  time: {day: "sun", start: "11:30AM", duration: "1:00"},
-  location: "",
-  event_type: "Main timeline"
+  time: {day: "sun", start: "10:00AM", duration: "4:00"},
+  location: "Chandler",
+  event_type: "Main timeline",
+  offset: 1
 },
 
 // workshops
@@ -93,6 +94,14 @@ var schedule = [
   title: "Using the MEAN Stack For Your Hack",
   caption: "Microsoft",
   time: {day: "sat", start: "12:00AM", duration: "1:00"},
+  location: "Winnett",
+  event_type: "Workshops"
+},
+
+{
+  title: "Build a Chatbot in 15 Minutes",
+  caption: "Prompt",
+  time: {day: "sat", start: "1:00AM", duration: "0:30"},
   location: "Winnett",
   event_type: "Workshops"
 },
