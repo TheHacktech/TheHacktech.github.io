@@ -246,7 +246,7 @@ var schedule = [
 },
 
 {
-  title: "Buses Depart",
+  title: "Buses Leave",
   caption: "",
   time: {day: "sun", start: "4:30PM", duration: "0:30"},
   location: "",
