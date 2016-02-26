@@ -123,7 +123,7 @@ var schedule = [
 },
 
 {
-  title: "Technology in Finance",
+  title: "Gamify Wallstreet",
   caption: "Quantiacs",
   time: {day: "sat", start: "4:30PM", duration: "1:00"},
   location: "Winnett",
