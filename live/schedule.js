@@ -42,7 +42,7 @@ var schedule = [
 {
   title: "Lunch",
   caption: "",
-  time: {day: "sat", start: "1:30PM", duration: "1:00"},
+  time: {day: "sat", start: "1:30PM", duration: "1:30"},
   location: "Chandler",
   event_type: "Main timeline"
 },
@@ -206,7 +206,7 @@ var schedule = [
 },
 
 {
-  title: "Anime Watching",
+  title: "Anime Watching Party",
   caption: "",
   time: {day: "sat", start: "8:00PM", duration: "2:00"},
   location: "Avery",
@@ -222,7 +222,7 @@ var schedule = [
 },
 
 {
-  title: "Bubble Wrap & Air Pillow Party",
+  title: "Bubble Wraaap *pop*",
   caption: "",
   time: {day: "sun", start: "1:00AM", duration: "1:00"},
   location: "Winnett",
