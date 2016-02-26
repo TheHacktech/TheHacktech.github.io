@@ -201,7 +201,7 @@ var schedule = [
   title: "Minesweeper Tournament",
   caption: "",
   time: {day: "sat", start: "5:30PM", duration: "1:30"},
-  location: "Annenberg 105",
+  location: "Winnett",
   event_type: "events"
 },
 
@@ -209,7 +209,7 @@ var schedule = [
   title: "Anime Watching Party",
   caption: "",
   time: {day: "sat", start: "8:00PM", duration: "2:00"},
-  location: "Avery",
+  location: "Winnett",
   event_type: "events"
 },
 
