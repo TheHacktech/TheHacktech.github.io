@@ -176,7 +176,7 @@ var schedule = [
 {
   title: "Cup Stacking with Swift",
   caption: "",
-  time: {day:"sat", start:"3:00AM", duration:"1:00"},
+  time: {day:"sat", start:"11:00AM", duration:"1:00"},
   location: "Chandler",
   event_type: "events",
 },
