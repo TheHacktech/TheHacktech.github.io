@@ -72,7 +72,7 @@ var schedule = [
 },
 
 {
-  title: "Coffee and Pasteries!",
+  title: "Coffee and Pastries!",
   caption: "",
   time: {day: "sun", start: "7:00AM", duration: "4:00"},
   location: "Red Door Cafe",
@@ -123,8 +123,8 @@ var schedule = [
 },
 
 {
-  title: "Gamify Wallstreet",
-  caption: "Quantiacs",
+  title: "Algorithmic Trading 101 with Quantiacs",
+  caption: "From 0 to system: How to write a trading algorithm",
   time: {day: "sat", start: "4:30PM", duration: "1:00"},
   location: "Winnett",
   event_type: "Workshops"
