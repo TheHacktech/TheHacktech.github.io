@@ -176,8 +176,8 @@ var schedule = [
 {
   title: "Cup Stacking with Swift",
   caption: "",
-  time: {day:"sat", start:"11:00AM", duration:"1:00"},
-  location: "Chandler",
+  time: {day:"sat", start:"10:00PM", duration:"1:00"},
+  location: "Winnett",
   event_type: "events",
 },
 
@@ -216,7 +216,7 @@ var schedule = [
 {
   title: "Powerade Contest?",
   caption: "",
-  time: {day: "sat", start: "10:15PM", duration: "0:45"},
+  time: {day: "sat", start: "11:15PM", duration: "0:45"},
   location: "Chandler",
   event_type: "events"
 },
