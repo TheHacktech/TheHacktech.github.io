@@ -199,13 +199,10 @@ a:after {
     text-align: center;
 }
 
-.btn {
+.btn-primary {
+  background-color: white;
+  color: #e5cace;
   display: inline-block;
-  -webkit-user-select: none;
-     -moz-user-select: none;
-      -ms-user-select: none;
-       -o-user-select: none;
-          user-select: none;
 }
 
 .btn-theme  {
