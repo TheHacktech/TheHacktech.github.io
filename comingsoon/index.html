@@ -25,9 +25,10 @@
 			<div class="row">
 				<div class="col-sm-12 col-md-12 col-lg-12">
 					<div id="logo"><img src="assets/img/logo.png" /></div>
-          <h4> March 3-5, 2017 </h4>
+          <h4> Spring 2017 </h4>
+          <h5> Pasadena, CA </h5>
           <input type="email" id="hackerEmail">
-          <button type="btn btn-primary" onclick="save()">Pre-Register</button>
+          <button type="btn btn-primary" onclick="save()">Receive Updates</button>
 				</div>
 			</div>
 		</div>
@@ -80,11 +81,9 @@
       storageBucket: "hacktech-pre-registration.appspot.com",
     };
     firebase.initializeApp(config);
-    firebase.database().ref().push({email: "advith.chelikani@gmail.com"});
 
     function save() {
       var eID = document.getElementById("hackerEmail").value;
-      console.log(eID);
       firebase.database().ref().push({email: eID});
     };
 
