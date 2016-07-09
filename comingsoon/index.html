@@ -24,34 +24,74 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-sm-12 col-md-12 col-lg-12">
-					<div id="logo"><h1><img src="assets/img/logo.png" /></h1></div>
-					<h2 id="subtitle"><span>Coming to <a href="https://en.wikipedia.org/wiki/Rose_Bowl_(stadium)" target="_blank">the Rose Bowl</a> in:</span></h2>
-					<div id="countdown"></div>
-					<form action="http://formspree.io/team@hacktech.io" method="POST" class="form-inline signup" role="form">
-					  <div class="form-group">
-					    <input type="email" class="form-control" name="participantemail" placeholder="Email!" size="30">
-					  </div>
-					  <input type="submit" value="Get notified!" class="btn btn-theme"></button>
-					</form>
-
+					<div id="logo"><img src="assets/img/logo.png" /></div>
+          <h4> March 3-5, 2017 </h4>
+          <input type="email" id="hackerEmail">
+          <button type="btn btn-primary" onclick="save()">Pre-Register</button>
 				</div>
-
 			</div>
 		</div>
 	</div>
-    <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
-    <script src="assets/js/bootstrap.min.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/3.1.0/firebase.js"></script>
+  <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
+  <script src="assets/js/bootstrap.min.js"></script>
 	<script src="assets/js/jquery.countdown.min.js"></script>
 	<script type="text/javascript">
-  $('#countdown').countdown('2017/03/04', function(event) {
-    $(this).html(event.strftime('<b>%D</b> days <b>%H</b> hours <b>%M</b> minutes <b>%S</b> seconds'));
-  });
+    // Initialize Firebase
+    /*
 
-  function changeBg() {
-      document.getElementById("wrapper").style.backgroundImage = "url('assets/img/rose.jpg')";
-      return false;
-  }
 
-</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    */
+    var config = {
+      apiKey: "AIzaSyAfRJWCG5g0EFpYsA3gX2NQIK_jRYttaFY",
+      authDomain: "hacktech-pre-registration.firebaseapp.com",
+      databaseURL: "https://hacktech-pre-registration.firebaseio.com",
+      storageBucket: "hacktech-pre-registration.appspot.com",
+    };
+    firebase.initializeApp(config);
+    firebase.database().ref().push({email: "advith.chelikani@gmail.com"});
+
+    function save() {
+      var eID = document.getElementById("hackerEmail").value;
+      console.log(eID);
+      firebase.database().ref().push({email: eID});
+    };
+
+    $('#countdown').countdown('2017/03/04', function(event) {
+      $(this).html(event.strftime('<b>%D</b> days <b>%H</b> hours <b>%M</b> minutes <b>%S</b> seconds'));
+    });
+
+  </script>
   </body>
 </html>

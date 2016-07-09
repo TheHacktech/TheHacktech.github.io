@@ -117,8 +117,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #logo {
-	height: 0px;
-	margin-top: -150px;
+  width: 100%;
 }
 
 h2 {
@@ -146,6 +145,7 @@ h3 {
 }
 
 h4 {
+  color: white;
 	font-weight: 400;
 	font-size: 20px;
 }
@@ -195,24 +195,11 @@ a:after {
 
 .btn {
   display: inline-block;
-  padding: 10px 20px;
-  margin-bottom: 0;
-  margin-top: -40px;
-  font-size: 14px;
-  font-weight: normal;
-  line-height: 1.428571429;
-  text-align: center;
-  white-space: nowrap;
-  vertical-align: middle;
-  cursor: pointer;
   -webkit-user-select: none;
      -moz-user-select: none;
       -ms-user-select: none;
        -o-user-select: none;
           user-select: none;
-  background-image: none;
-  border: 1px solid transparent;
-  border-radius: 0;
 }
 
 .btn-theme  {
