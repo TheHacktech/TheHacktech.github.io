@@ -85,6 +85,7 @@
     function save() {
       var eID = document.getElementById("hackerEmail").value;
       firebase.database().ref().push({email: eID});
+      document.getElementById("hackerEmail").value = "Confirmed!";
     };
 
     $('#countdown').countdown('2017/03/04', function(event) {
