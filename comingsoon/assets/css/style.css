@@ -114,7 +114,6 @@ body {
     line-height: 1.6em;
     -webkit-font-smoothing: antialiased;
     -webkit-overflow-scrolling: touch;
-    padding: 50px;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -272,6 +271,7 @@ p.copyright {
     justify-content: center;
 
     height: 100%;
+    width: 100%;
 
     flex-flow: column wrap;
     overflow: visible;
@@ -285,6 +285,7 @@ p.copyright {
     justify-content: center;
     flex-flow: column nowrap;
     overflow: visible;
+    margin: 50px;
 
 }
 
@@ -314,7 +315,6 @@ img {
 
 #form {
     margin-top: 30px;
-    margin-bottom: 50px;
     font-size: 0px;
     text-align: center;
     width: 45%;
@@ -357,13 +357,12 @@ input {
 
     #form button {
         margin-top: 10px;
-        margin-bottom: 50px;
         padding: 4px 15px;
         width: auto;
     }
 }
 
-@media (max-height:650px) {
+@media (max-height:750px) {
     #wrapper {
         height:auto;
     }
