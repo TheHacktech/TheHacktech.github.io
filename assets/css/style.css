@@ -338,6 +338,12 @@ img {
 }
 
 
+.tagline {
+  font-size: 12px;
+  margin: 0px;
+  color: white;
+}
+
 #hackerEmail {
     text-transform: uppercase;
     font-size: 12px;
@@ -353,6 +359,9 @@ input {
 @media (max-width:1000px) {
     input {
         width: 100%;
+    }
+    .tagline {
+      width: 50%;
     }
 
     #form button {
