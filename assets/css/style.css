@@ -314,7 +314,7 @@ img {
 }
 
 #form {
-    margin-top: 30px;
+    margin: 30px 0px;
     font-size: 0px;
     text-align: center;
     width: 45%;
@@ -323,7 +323,7 @@ img {
 #form button {
     flex: 1 0 auto;
     text-transform: uppercase;
-    font-family: montserratregular;
+    font-family: montserrat;
     letter-spacing: 10%;
     font-size: 12px;
     /*margin-left: -4px;*/
@@ -334,7 +334,7 @@ img {
     width: 35%;
     padding: 4px;
     border:1px solid #c5aeb3;
-
+    margin-top: 10px;
 }
 
 
@@ -342,6 +342,15 @@ img {
   font-size: 12px;
   margin: 0px;
   color: white;
+  text-align: center;
+}
+
+.tagline a {
+    background-color:#fff;
+    color: #e5cace;
+    padding: 2px 5px;
+    margin-right: 3px;
+    /*text-decoration: underline;*/
 }
 
 #hackerEmail {
@@ -357,22 +366,42 @@ input {
 }
 
 @media (max-width:1000px) {
+
     input {
         width: 100%;
     }
+
     .tagline {
       width: 50%;
     }
 
+    .tagline b {
+        display: block;
+        margin-bottom: -8px;
+        margin-top: 5px;
+    }
+
     #form button {
-        margin-top: 10px;
         padding: 4px 15px;
         width: auto;
     }
 }
 
-@media (max-height:750px) {
+@media (max-height:700px) {
     #wrapper {
         height:auto;
+    }
+
+    #form {
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    h1 {
+        margin-bottom: 10px;
+    }
+
+    #form button {
+        margin-top: 5px;
     }
 }
