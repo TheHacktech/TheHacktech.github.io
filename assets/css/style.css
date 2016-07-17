@@ -337,23 +337,6 @@ img {
     margin-top: 10px;
 }
 
-#mc-embedded-subscribe {
-    flex: 1 0 auto;
-    text-transform: uppercase;
-    font-family: montserrat;
-    letter-spacing: 10%;
-    font-size: 12px;
-    /*margin-left: -4px;*/
-    outline: 0;
-    border: 0;
-    background-color: #c6aeb3;
-    color: #fff;
-    width: 35%;
-    padding: 4px;
-    border:1px solid #c5aeb3;
-    margin-top: 10px;
-}
-
 
 .tagline {
   font-size: 12px;
@@ -402,11 +385,6 @@ input {
         padding: 4px 15px;
         width: auto;
     }
-	
-	  #mc-embedded-subscribe {
-        padding: 4px 15px;
-        width: auto;
-    }
 }
 
 @media (max-height:700px) {
@@ -424,10 +402,6 @@ input {
     }
 
     #form button {
-        margin-top: 5px;
-    }
-	
-	  #mc-embedded-subscribe {
         margin-top: 5px;
     }
 }
