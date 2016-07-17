@@ -402,6 +402,11 @@ input {
         padding: 4px 15px;
         width: auto;
     }
+	
+	  #mc-embedded-subscribe {
+        padding: 4px 15px;
+        width: auto;
+    }
 }
 
 @media (max-height:700px) {
