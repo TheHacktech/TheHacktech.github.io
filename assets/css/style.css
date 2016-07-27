@@ -286,6 +286,7 @@ p.copyright {
     flex-flow: column nowrap;
     overflow: visible;
     margin: 50px;
+    text-align: center;
 
 }
 
@@ -365,19 +366,42 @@ input {
     width: 60%;
 }
 
+#mlh {
+  width: 300px;
+  margin-bottom: -50px;
+  margin-top: 30px;
+  text-align: center;
+  color: #fff;
+}
+
+#mlh p {
+  font-size: 10px;
+}
+
+#mlh img {
+  margin-top: -90px;
+}
+
 @media (max-width:1000px) {
 
-    input {
-        width: 100%;
+    #form input {
+        width: 150%;
+        margin-left: -25%;
+    }
+
+    #form button {
+      font-size: 10px;
     }
 
     .tagline {
       width: 50%;
+      line-height: 150%;
+      margin-top: 10px;
     }
 
     .tagline b {
         display: block;
-        margin-bottom: -8px;
+        margin-bottom: 0px;
         margin-top: 5px;
     }
 
