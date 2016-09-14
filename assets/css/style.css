@@ -106,7 +106,7 @@ html, body {
 }
 
 body {
-	background: #e5cace;
+	background: #cd989f;
     font-family: 'Montserrat', sans-serif;
     font-weight: 300;
     font-size: 16px;
@@ -129,7 +129,7 @@ h2 {
 }
 
 h2 span {
-	color: #e5cace;
+	color: #cd989f;
 	background-color: #fff;
 	padding: 5px 10px;
 }
@@ -202,7 +202,7 @@ a:after {
 
 .btn-primary {
   background-color: white;
-  color: #e5cace;
+  color: #cd989f;
   display: inline-block;
 }
 
@@ -220,7 +220,7 @@ a:after {
 }
 /*.btn-theme:hover  {
   color: #000000;
-  background-color: #e5cace;
+  background-color: #cd989f;
   border-color: #FFFFFF;
 }*/
 form.signup input  {
@@ -348,7 +348,7 @@ img {
 
 .tagline a {
     background-color:#fff;
-    color: #e5cace;
+    color: #cd989f;
     padding: 2px 5px;
     margin-right: 3px;
     /*text-decoration: underline;*/
