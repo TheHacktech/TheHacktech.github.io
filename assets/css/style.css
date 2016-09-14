@@ -270,7 +270,7 @@ p.copyright {
     align-items: center;
     justify-content: center;
 
-    height: 100%;
+    height: auto;
     width: 100%;
 
     flex-flow: column wrap;
