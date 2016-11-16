@@ -157,6 +157,10 @@ html, body{
     -moz-transition-timing-function: ease-out;
     transition-timing-function: ease-out;
     padding-right: 2em;
+
+    a {
+      color: #fff;
+    }
   }
 
   .activeanswer {
@@ -183,7 +187,17 @@ html, body{
     font-size: 3em;
     text-transform: uppercase;
     letter-spacing: .03em;
+    margin-bottom: 15px;
+  }
+
+  h5 {
+    font-size: 1em;
+    letter-spacing: .03em;
     margin-bottom: 20px;
+
+    a {
+      color: $rosegold;
+    }
   }
 
   .sponsor {

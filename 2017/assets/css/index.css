@@ -122,6 +122,8 @@ body {
     -moz-transition-timing-function: ease-out;
     transition-timing-function: ease-out;
     padding-right: 2em; }
+    #faq .answer a {
+      color: #fff; }
   #faq .activeanswer {
     padding: 20px; }
   #faq .flipButton:after {
@@ -139,7 +141,13 @@ body {
     font-size: 3em;
     text-transform: uppercase;
     letter-spacing: .03em;
+    margin-bottom: 15px; }
+  #sponsors h5 {
+    font-size: 1em;
+    letter-spacing: .03em;
     margin-bottom: 20px; }
+    #sponsors h5 a {
+      color: #cd989f; }
   #sponsors .sponsor {
     display: inline-block;
     max-height: 100px;
