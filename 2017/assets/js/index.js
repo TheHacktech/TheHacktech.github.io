@@ -18,3 +18,21 @@ $(document).ready(function() {
       }
   });
 });
+// Initialize Firebase
+/*
+
+
+*/
+var config = {
+  apiKey: "AIzaSyAfRJWCG5g0EFpYsA3gX2NQIK_jRYttaFY",
+  authDomain: "hacktech-pre-registration.firebaseapp.com",
+  databaseURL: "https://hacktech-pre-registration.firebaseio.com",
+  storageBucket: "hacktech-pre-registration.appspot.com",
+};
+firebase.initializeApp(config);
+
+function save() {
+  var eID = document.getElementById("hackerEmail").value;
+  firebase.database().ref().push({email: eID});
+  document.getElementById("hackerEmail").value = "Confirmed!";
+};

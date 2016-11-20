@@ -6,6 +6,7 @@
     <link href="assets/css/index.css" rel="stylesheet">
     <link rel="shortcut icon" type="image/x-icon" href="./assets/img/favicon.ico" />
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/3.1.0/firebase.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-backstretch/2.0.4/jquery.backstretch.min.js"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Caltech's annual Hackathon!">
@@ -17,7 +18,9 @@
         <img src="assets/img/logo.png" />
         <h1>Hacktech 2017</h1>
         <h3>March 3-5 @ Pasadena, CA</h3>
-        <!-- <button>Apply</button> -->
+        <div id="form"><input type="email" id="hackerEmail" placeholder="Email">
+        <button type="btn btn-primary" id="updatebtn" onclick="save()">Receive Updates</button></div>
+        <!-- <button id="apply">Apply</button> -->
       </div>
     </section>
     <section id="intro">
@@ -31,55 +34,59 @@
     <section id="faq">
       <div class="contents">
         <h3>FAQ</h3>
-        <div class="faqelem">
-          <div class="question">Tell me more!</div>
-          <div class="answer">Hacktech is Caltech's premier interdisciplinary hackathon: for 36 hours, 500 awesome student hackers will
-            combine computer science with engineering and science to build the most innovative and interdisciplinary creations of the future.</div>
+        <div class="faqcolumn">
+          <div class="faqelem">
+            <div class="question">Tell me more!</div>
+            <div class="answer">Hacktech is Caltech's premier interdisciplinary hackathon: for 36 hours, 500 awesome student hackers will
+              combine computer science with engineering and science to build the most innovative and interdisciplinary creations of the future.</div>
+          </div>
+          <div class="faqelem">
+            <div class="question">Who can come?</div>
+            <div class="answer">Any undergraduate or graduate students from anywhere in the world. We also admit high school students on a case-by-case basis.
+              We also welcome beginners - Hacktech is meant to be a learning experience! We want you to come here to have fun and leave having learned something.</div>
+          </div>
+          <div class="faqelem">
+            <div class="question">How do teams work?</div>
+            <div class="answer">You can sign up as a team of up to four members. If you don't have a team before the event, don't fret!
+              We will help you find fellow hackers to work with once you arrive.</div>
+          </div>
+          <div class="faqelem">
+            <div class="question">What should I bring?</div>
+            <div class="answer">A student ID, a laptop, and a charger are the only necessities. We recommend you bring clothes, toiletries, and a sleeping bag as well!</div>
+          </div>
+          <div class="faqelem">
+            <div class="question">What can I create?</div>
+            <div class="answer">Absolutely anything you want - websites, apps, hardware, you name it. We encourage you to go above and beyond
+              the typical software project and make something that combines software with finance / medicine / electronics / science!</div>
+          </div>
+          <div class="faqelem">
+            <div class="question">How much will it cost?</div>
+            <div class="answer">It's absolutely free! We'll be providing you with meals, a place to hack, and swag. We will also be offering travel reimbursements on a case-by-case basis!</div>
+          </div>
         </div>
-        <div class="faqelem">
-          <div class="question">Who can come?</div>
-          <div class="answer">Any undergraduate or graduate students from anywhere in the world. We also admit high school students on a case-by-case basis.
-            We also welcome beginners - Hacktech is meant to be a learning experience! We want you to come here to have fun and leave having learned something.</div>
-        </div>
-        <div class="faqelem">
-          <div class="question">How do teams work?</div>
-          <div class="answer">You can sign up as a team of up to four members. If you don't have a team before the event, don't fret!
-            We will help you find fellow hackers to work with once you arrive.</div>
-        </div>
-        <div class="faqelem">
-          <div class="question">What should I bring?</div>
-          <div class="answer">A student ID, a laptop, and a charger are the only necessities. We recommend you bring clothes, toiletries, and a sleeping bag as well!</div>
-        </div>
-        <div class="faqelem">
-          <div class="question">What can I create?</div>
-          <div class="answer">Absolutely anything you want - websites, apps, hardware, you name it. We encourage you to go above and beyond
-            the typical software project and make something that combines software with finance / medicine / electronics / science!</div>
-        </div>
-        <div class="faqelem">
-          <div class="question">How much will it cost?</div>
-          <div class="answer">It's absolutely free! We'll be providing you with meals, a place to hack, and swag. We will also be offering travel reimbursements on a case-by-case basis!</div>
-        </div>
-        <div class="faqelem">
-          <div class="question">How will I get there?</div>
-          <div class="answer">We will be sending buses free of charge to certain universities in SoCal and NorCal. We may also be giving out travel reimbursements for flights
-            to out-of-state hackers!</div>
-        </div>
-        <div class="faqelem">
-          <div class="question">Anything else I should know?</div>
-          <div class="answer">There are a few things we don't encourage; you should refer to the MLH Code of Conduct <a href="https://static.mlh.io/docs/mlh-code-of-conduct.pdf" target="_blank">here</a> for some guidelines to follow. Also, be smart - don't use/bring
-            anything that you obviously shouldn't, including: alcohol, open flames, firearms, katanas, candy canes, maces, bassoons, etc.</div>
-        </div>
-        <div class="faqelem">
-          <div class="question">Sounds great, how do I apply?</div>
-          <div class="answer">Applications will be opening soon - stay tuned!</div>
-        </div>
-        <div class="faqelem">
-          <div class="question">What if I'm a Caltech student?</div>
-          <div class="answer">The application process is no different for Caltech students.</div>
-        </div>
-        <div class="faqelem">
-          <div class="question">Help!</div>
-          <div class="answer">Shoot us an email at team@hacktech.io and we'll get back to you before you can say "Hacktech is awesome!"</div>
+        <div class="faqcolumn">
+          <div class="faqelem">
+            <div class="question">How will I get there?</div>
+            <div class="answer">We will be sending buses free of charge to certain universities in SoCal and NorCal. We may also be giving out travel reimbursements for flights
+              to out-of-state hackers!</div>
+          </div>
+          <div class="faqelem">
+            <div class="question">Anything else I should know?</div>
+            <div class="answer">There are a few things we don't encourage; you should refer to the MLH Code of Conduct <a href="https://static.mlh.io/docs/mlh-code-of-conduct.pdf" target="_blank">here</a> for some guidelines to follow. Also, be smart - don't use/bring
+              anything that you obviously shouldn't, including: alcohol, open flames, firearms, katanas, candy canes, maces, bassoons, etc.</div>
+          </div>
+          <div class="faqelem">
+            <div class="question">Sounds great, how do I apply?</div>
+            <div class="answer">Applications will be opening soon - stay tuned!</div>
+          </div>
+          <div class="faqelem">
+            <div class="question">What if I'm a Caltech student?</div>
+            <div class="answer">The application process is no different for Caltech students.</div>
+          </div>
+          <div class="faqelem">
+            <div class="question">Help!</div>
+            <div class="answer">Shoot us an email at team@hacktech.io and we'll get back to you before you can say "Hacktech is awesome!"</div>
+          </div>
         </div>
       </div>
     </section>

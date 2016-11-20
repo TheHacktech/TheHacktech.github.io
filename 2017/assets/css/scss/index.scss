@@ -58,10 +58,60 @@ html, body{
 
   h3 {
     text-transform: uppercase;
+    font-size: 20px;
     letter-spacing: .08em;
   }
 
-  button {
+  #form {
+      margin: 30px 0px;
+      font-size: 0px;
+      text-align: center;
+      width: 45%;
+
+      button {
+        width: 10%;
+        text-transform: uppercase;
+        font-family: $bodyfont;
+        letter-spacing: .08em;
+        font-size: 20px;
+        font-weight:bold;
+        /*margin-left: -4px;*/
+        outline: 0;
+        color: #fff;
+        border: 2px #fff solid;
+        background: none;
+        width: 35%;
+        padding: 4px;
+        margin-top: 10px;
+        -webkit-transition-duration: .3s;
+        -moz-transition-duration: .3s;
+        -o-transition-duration: .3s;
+        transition-duration: .3s;
+    }
+
+    button:hover {
+      background-color: #fff;
+      color: $rosegold;
+      -webkit-transition-duration: .3s;
+      -moz-transition-duration: .3s;
+      -o-transition-duration: .3s;
+      transition-duration: .3s;
+    }
+  }
+
+  input {
+    outline: 0;
+    border: 0;
+    padding: 6px;
+    width: 45%;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-family: $bodyfont;
+    letter-spacing: .08em;
+    color: $rosegold;
+  }
+
+  #apply {
     border: 0;
     outline: 0;
     font-family: $bodyfont;
@@ -109,7 +159,9 @@ html, body{
   background-color: $rosegold;
 
   .contents {
-    padding: 50px 13%;
+    padding: 50px 10%;
+    text-align: center;
+    font-size: 20px;
   }
 
   h3 {
@@ -117,17 +169,25 @@ html, body{
     font-size: 3em;
     text-transform: uppercase;
     letter-spacing: .03em;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
+  }
+
+  .faqcolumn {
+    width: 45%;
+    display: inline-block;
+    margin: 0px 1%;
+    vertical-align: top;
   }
 
   .faqelem {
+    text-align: left;
     margin-bottom:20px;
   }
 
   .question {
     background-color: #fff;
     color: $rosegold;
-    padding:20px;
+    padding:20px 20px 14px 20px;
     cursor: pointer;
   }
 
@@ -254,9 +314,30 @@ html, body{
 }
 
 @media screen and (max-width: 1200px) {
+  #landing {
+    #form {
+      text-align: center;
+      button {
+        margin-top: 10px;
+        width: 80%;
+      }
+      input {
+        width: 100%;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 968px) {
   #sponsors {
     .sponsor {
       max-height: 50px;
+    }
+  }
+  #faq
+  {
+    .faqcolumn {
+      width: 100%;
     }
   }
 }
