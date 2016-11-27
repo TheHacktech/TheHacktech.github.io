@@ -36,7 +36,7 @@ body {
     justify-content: center;
     align-items: center; }
   #landing img {
-    max-height: 50%;
+    max-height: 40%;
     width: auto; }
   #landing h1 {
     text-align: center;
