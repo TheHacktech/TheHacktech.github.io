@@ -341,3 +341,28 @@ html, body{
     }
   }
 }
+
+@media screen and (max-height:700px) {
+#landing {
+    img {
+      max-height: 40%;
+    }
+
+    h1 {
+      font-size: 2.5em;
+    }
+
+    h3 {
+      font-size: 1em;
+    }
+
+
+    #form button {
+      font-size: 14px;
+    }
+
+    input {
+      font-size: 14px;
+    }
+  }
+}

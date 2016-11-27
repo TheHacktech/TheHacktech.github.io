@@ -253,5 +253,16 @@ body {
 
   #faq .faqcolumn {
     width: 100%; } }
+@media screen and (max-height: 700px) {
+  #landing img {
+    max-height: 40%; }
+  #landing h1 {
+    font-size: 2.5em; }
+  #landing h3 {
+    font-size: 1em; }
+  #landing #form button {
+    font-size: 14px; }
+  #landing input {
+    font-size: 14px; } }
 
 /*# sourceMappingURL=index.css.map */
