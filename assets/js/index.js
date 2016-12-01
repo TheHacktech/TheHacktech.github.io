@@ -7,7 +7,6 @@ $(document).ready(function() {
       var answer = faqElement.find('.answer');
       if (!answer.hasClass('activeanswer')) {
         question.addClass('flipButton');
-        answer.css('max-height', 'none');
         answer.css('max-height', answer.height());
         answer.addClass('activeanswer');
       }
