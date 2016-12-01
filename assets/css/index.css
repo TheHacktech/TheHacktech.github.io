@@ -175,7 +175,8 @@ body {
     #faq .answer a {
       color: #fff; }
   #faq .activeanswer {
-    padding: 20px; }
+    padding: 20px;
+    max-height: 100%; }
   #faq .flipButton:after {
     -webkit-transform: rotate(270deg);
     -ms-transform: rotate(270deg);
