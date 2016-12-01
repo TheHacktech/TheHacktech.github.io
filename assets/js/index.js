@@ -1,6 +1,6 @@
 $("body").backstretch("assets/img/background1.png");
 
-$(document).ready(function() {
+$(window).on('load', function() {
     $('.faqelem').click(function() {
       var faqElement = $(this);
       var question = faqElement.find('.question');
