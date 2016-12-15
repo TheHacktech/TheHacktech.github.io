@@ -32,7 +32,8 @@ body {
     display: -webkit-flex;
     display: flex;
     -webkit-flex-flow: column nowrap;
-    flex: 1;
+    flex: 1 1 auto;
+    -webkit-flex: 1 1 auto;
     justify-content: center;
     align-items: center; }
   #landing img {
@@ -114,7 +115,8 @@ body {
     display: -webkit-flex;
     display: flex;
     -webkit-flex-flow: column nowrap;
-    flex: 1;
+    flex: 1 1 auto;
+    -webkit-flex: 1 1 auto;
     justify-content: center;
     align-items: center; }
   #intro p {
