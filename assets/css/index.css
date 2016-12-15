@@ -34,7 +34,9 @@ body {
     -webkit-flex-flow: column nowrap;
     -webkit-flex: 1 1 auto;
     flex: 1 1 auto;
+    -webkit-justify-content: center;
     justify-content: center;
+    -webkit-align-items: center;
     align-items: center; }
   #landing img {
     max-height: 40%;
@@ -117,7 +119,9 @@ body {
     -webkit-flex-flow: column nowrap;
     -webkit-flex: 1 1 auto;
     flex: 1 1 auto;
+    -webkit-justify-content: center;
     justify-content: center;
+    -webkit-align-items: center;
     align-items: center; }
   #intro p {
     font-size: 1.5em;
