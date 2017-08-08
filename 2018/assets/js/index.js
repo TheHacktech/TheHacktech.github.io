@@ -1,4 +1,4 @@
-$("body").backstretch("assets/img/background1.png");
+//$("body").backstretch("assets/img/background1.png");
 
 $(document).ready(function() {
     $('.faqelem').click(function() {

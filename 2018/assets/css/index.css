@@ -18,8 +18,8 @@ html, body {
 
 body {
   font-family: "Roboto Condensed", sans-serif;
-  background-color: #cd989f;
-  color: #fff; }
+  background-color: #fff;
+  color: #cd989f; }
 
 #landing {
   height: 100%; }
@@ -108,8 +108,8 @@ body {
     margin-top: 20px; }
 
 #intro {
-  background-color: #fff;
-  color: #cd989f; }
+  background-color: #cd989f;
+  color: #fff; }
   #intro .contents {
     padding: 15% 15%;
     display: -webkit-box;
@@ -133,7 +133,7 @@ body {
       font-size: 2em; }
 
 #faq {
-  background-color: #cd989f; }
+  background-color: #fff; }
   #faq .contents {
     padding: 50px 10%;
     text-align: center;
@@ -153,12 +153,12 @@ body {
     text-align: left;
     margin-bottom: 20px; }
   #faq .question {
-    background-color: #fff;
-    color: #cd989f;
+    background-color: #cd989f;
+    color: #fff;
     padding: 20px 20px 14px 20px;
     cursor: pointer; }
   #faq .question:after {
-    color: #cd989f;
+    color: #fff;
     -webkit-font-smoothing: antialiased;
     content: ">";
     position: relative;
@@ -169,7 +169,7 @@ body {
     -ms-transform: rotate(90deg);
     transform: rotate(90deg); }
   #faq .answer {
-    border: 3px solid #fff;
+    border: 3px solid #cd989f;
     padding: 0px 20px;
     max-height: 0;
     overflow-y: hidden;
@@ -181,7 +181,7 @@ body {
     transition-timing-function: ease-out;
     padding-right: 2em; }
     #faq .answer a {
-      color: #fff; }
+      color: #cd989f; }
   #faq .activeanswer {
     padding: 20px;
     max-height: 100%; }
@@ -191,8 +191,8 @@ body {
     transform: rotate(270deg); }
 
 #sponsors {
-  background-color: #fff;
-  color: #cd989f; }
+  background-color: #cd989f;
+  color: #fff; }
   #sponsors .contents {
     padding: 50px 13%;
     text-align: center; }
@@ -206,7 +206,7 @@ body {
     letter-spacing: .03em;
     margin-bottom: 20px; }
     #sponsors h5 a {
-      color: #cd989f; }
+      color: #fff; }
   #sponsors .sponsor {
     display: inline-block;
     max-height: 100px;
@@ -224,8 +224,8 @@ body {
     transition-duration: .5s; }
 
 #footer {
-  background-color: #cd989f;
-  color: #fff; }
+  background-color: #fff;
+  color: #cd989f; }
   #footer .contents {
     padding: 50px 13%; }
   #footer #social {
