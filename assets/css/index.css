@@ -83,7 +83,8 @@ body {
       -webkit-transition-duration: .3s;
       -moz-transition-duration: .3s;
       -o-transition-duration: .3s;
-      transition-duration: .3s; }
+      transition-duration: .3s;
+      cursor: pointer; }
   #landing input {
     outline: 0;
     border: 0;
