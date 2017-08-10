@@ -8,6 +8,9 @@ $bodyfont: 'Roboto Condensed', sans-serif;
 $titlefont: 'Roboto Slab', serif;
 $rosegold: #cd989f;
 $lighter: #f1e2e4;
+$pjblue: #55b6e7;
+$maincolor: $pjblue;
+$scroll: #55b;
 
 * {
   padding: 0;
@@ -22,7 +25,7 @@ html, body{
 
  body {
   font-family: $bodyfont;
-  background-color: $rosegold;
+  background-color: $maincolor;
   color: #fff;
 }
 
@@ -95,7 +98,7 @@ html, body{
 
     button:hover {
       background-color: #fff;
-      color: $rosegold;
+      color: $maincolor;
       -webkit-transition-duration: .3s;
       -moz-transition-duration: .3s;
       -o-transition-duration: .3s;
@@ -112,7 +115,7 @@ html, body{
     text-transform: uppercase;
     font-family: $bodyfont;
     letter-spacing: .08em;
-    color: $rosegold;
+    color: $maincolor;
   }
 
   #apply {
@@ -122,7 +125,7 @@ html, body{
     text-transform: uppercase;
     font-weight: 600;
     background-color: #fff;
-    color: $rosegold;
+    color: $maincolor;
     padding: 15px 30px;
     font-size: 1.5em;
     letter-spacing: .1em;
@@ -132,7 +135,7 @@ html, body{
 
 #intro {
   background-color: #fff;
-  color: $rosegold;
+  color: $maincolor;
 
   .contents {
     padding: 15% 15%;
@@ -164,7 +167,7 @@ html, body{
 
 #faq {
   //height: 100%;
-  background-color: $rosegold;
+  background-color: $maincolor;
 
   .contents {
     padding: 50px 10%;
@@ -194,14 +197,14 @@ html, body{
 
   .question {
     background-color: #fff;
-    color: $rosegold;
+    color: $maincolor;
     padding:20px 20px 14px 20px;
     cursor: pointer;
   }
 
   .question:after {
     //font-family: 'squarespace-ui-font';
-    color: $rosegold;
+    color: $maincolor;
     -webkit-font-smoothing: antialiased;
     content: ">";
     position: relative;
@@ -245,7 +248,7 @@ html, body{
 
 #sponsors {
   background-color: #fff;
-  color: $rosegold;
+  color: $maincolor;
 
   .contents {
     padding: 50px 13%;
@@ -265,7 +268,7 @@ html, body{
     margin-bottom: 20px;
 
     a {
-      color: $rosegold;
+      color: $maincolor;
     }
   }
 
@@ -290,7 +293,7 @@ html, body{
 }
 
 #footer {
-  background-color: $rosegold;
+  background-color: $maincolor;
   color: #fff;
 
   .contents {
@@ -316,10 +319,10 @@ html, body{
 }
 /* Handle */
 ::-webkit-scrollbar-thumb {
-    background: $rosegold;
+    background: $scroll;
 }
 ::-webkit-scrollbar-thumb:window-inactive {
-  background: $rosegold;
+  background: $scroll;
 }
 
 @media screen and (max-width: 1200px) {
