@@ -18,7 +18,7 @@ html, body {
 
 body {
   font-family: "Roboto Condensed", sans-serif;
-  background-color: #536bb1;
+  background-color: #cd989f;
   color: #fff; }
 
 #landing {
@@ -79,11 +79,12 @@ body {
       transition-duration: .3s; }
     #landing #form button:hover {
       background-color: #fff;
-      color: #536bb1;
+      color: #cd989f;
       -webkit-transition-duration: .3s;
       -moz-transition-duration: .3s;
       -o-transition-duration: .3s;
-      transition-duration: .3s; }
+      transition-duration: .3s;
+      cursor: pointer; }
   #landing input {
     outline: 0;
     border: 0;
@@ -93,7 +94,7 @@ body {
     text-transform: uppercase;
     font-family: "Roboto Condensed", sans-serif;
     letter-spacing: .08em;
-    color: #536bb1; }
+    color: #cd989f; }
   #landing #apply {
     border: 0;
     outline: 0;
@@ -101,7 +102,7 @@ body {
     text-transform: uppercase;
     font-weight: 600;
     background-color: #fff;
-    color: #536bb1;
+    color: #cd989f;
     padding: 15px 30px;
     font-size: 1.5em;
     letter-spacing: .1em;
@@ -109,7 +110,7 @@ body {
 
 #intro {
   background-color: #fff;
-  color: #536bb1; }
+  color: #cd989f; }
   #intro .contents {
     padding: 15% 15%;
     display: -webkit-box;
@@ -133,7 +134,7 @@ body {
       font-size: 2em; }
 
 #faq {
-  background-color: #536bb1; }
+  background-color: #cd989f; }
   #faq .contents {
     padding: 50px 10%;
     text-align: center;
@@ -154,11 +155,11 @@ body {
     margin-bottom: 20px; }
   #faq .question {
     background-color: #fff;
-    color: #536bb1;
+    color: #cd989f;
     padding: 20px 20px 14px 20px;
     cursor: pointer; }
   #faq .question:after {
-    color: #536bb1;
+    color: #cd989f;
     -webkit-font-smoothing: antialiased;
     content: ">";
     position: relative;
@@ -192,7 +193,7 @@ body {
 
 #sponsors {
   background-color: #fff;
-  color: #536bb1; }
+  color: #cd989f; }
   #sponsors .contents {
     padding: 50px 13%;
     text-align: center; }
@@ -206,7 +207,7 @@ body {
     letter-spacing: .03em;
     margin-bottom: 20px; }
     #sponsors h5 a {
-      color: #536bb1; }
+      color: #cd989f; }
   #sponsors .sponsor {
     display: inline-block;
     max-height: 100px;
@@ -224,7 +225,7 @@ body {
     transition-duration: .5s; }
 
 #footer {
-  background-color: #536bb1;
+  background-color: #cd989f;
   color: #fff; }
   #footer .contents {
     padding: 50px 13%; }
@@ -243,10 +244,10 @@ body {
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
-  background: #536bb1; }
+  background: #cd989f; }
 
 ::-webkit-scrollbar-thumb:window-inactive {
-  background: #536bb1; }
+  background: #cd989f; }
 
 @media screen and (max-width: 1200px) {
   #landing #form {

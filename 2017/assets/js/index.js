@@ -1,4 +1,4 @@
-//$("body").backstretch("assets/img/background1.png");
+$("body").backstretch("assets/img/background1.png");
 
 $(document).ready(function() {
     $('.faqelem').click(function() {
@@ -36,19 +36,3 @@ function save() {
   firebase.database().ref().push({email: eID});
   document.getElementById("hackerEmail").value = "Confirmed!";
 };
-
-function changeBackgroundColor() {
-    var color = prompt("Enter a color for the background: ", "#55b6e7");
-    document.body.style.background = color;
-}
-
-function changeLogo() {
-    var logo = prompt("Enter link to logo: ", "assets/img/tt12.png");
-    document.getElementById("hektek").src = logo;
-}
-
-function buttons() {
-    document.getElementById("colorbtn").style.left = window.innerWidth - 400 + "px";
-    document.getElementById("logobtn").style.left = window.innerWidth - 500 + "px";
-}
-buttons();
