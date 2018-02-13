@@ -1,15 +1,15 @@
 var BROWSER;
 var VIEWPORT_WIDTH;
-var START_TIME = (new Date(2015, 10, 9, 0, 0, 0, 0)).getTime();
-var END_TIME = (new Date(2015, 10, 11, 12, 0, 0, 0)).getTime();
+var START_TIME = (new Date(2018, 3, 2, 18, 0, 0, 0)).getTime();
+var END_TIME = (new Date(2018, 3, 4, 17, 0, 0, 0)).getTime();
 var TOTAL_TIME = END_TIME - START_TIME;
-var SCHEDULE_HEIGHT = 4400;
+var SCHEDULE_HEIGHT = 5600; //4400
 var countdown;
 
 function update_schedule_indicator(){
-
 	var elapsed_time = (new Date()).getTime() - START_TIME;
-	$('#schedule-indicator').css({'top': (elapsed_time / TOTAL_TIME) * SCHEDULE_HEIGHT + 48 + 'px', 'opacity': 1});
+	var temp = elapsed_time / TOTAL_TIME * SCHEDULE_HEIGHT + 48 + 'px';
+	$('#schedule-indicator').css({'top': temp, 'opacity': 1});
 
 }
 
@@ -33,7 +33,7 @@ function schedule_callback(state){
 
 days = ["FRI", "SAT", "SUN"];
 start_hour = 6;
-duration = 49;
+duration = 47;
 
 function createCalendar() {
 	var day = 0;
@@ -180,7 +180,7 @@ $(document).ready(function(){
 	// 	update_schedule_indicator();
 	// }, 1000);
 
-	// countdown = countdown(new Date(2015, 9, 10, 15, 42, 0), function(ts){
+	// countdown = countdown(new Date(), function(ts){
 	// 	$('#header-countdown-day').text(ts.days);
 	// 	$('#header-countdown-hour').text(ts.hours);
 	// 	$('#header-countdown-min').text(ts.minutes);

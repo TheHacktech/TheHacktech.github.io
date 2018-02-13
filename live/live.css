@@ -226,7 +226,7 @@ i {
     margin-left: 0px;
 }
 .schedule-item {
-    background: white;
+    background: #fff;
     color: #4a4a4a;
     border-radius: 2px;
     padding: 12px;
@@ -237,6 +237,9 @@ i {
     width: calc(100% - 24px);
     position: absolute;
     border-left: 6px solid #546db2;
+    border-top: 1px solid #546db2;
+    border-bottom: 1px solid #546db2;
+    border-right: 1px solid #546db2;
     transition: 0.3s ease;
     overflow: hidden;
 }
@@ -343,6 +346,8 @@ i {
     background: #b4656f;
     color: white;
     top: 4968px;
+    top: 5200px;
+    top: 4908px;
     position: absolute;
     width: calc(100% - 24px);
     padding: 12px;

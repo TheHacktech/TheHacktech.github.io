@@ -10,18 +10,18 @@ var schedule = [
 
   title: "Dinner",
   caption: "",
-  time: {day: "fri", start: "6:30PM", duration: "2:30"},
+  time: {day: "fri", start: "6:30PM", duration: "2:00"},
   location: "Chandler",
   event_type: "Main timeline"
 },
 
-{
-  title: "Midnight Snack",
-  caption: "",
-  time: {day: "sat", start: "2:30AM", duration: "1:00"},
-  location: "Chandler",
-  event_type: "Main timeline",
-},
+// {
+//   title: "Midnight Snack",
+//   caption: "",
+//   time: {day: "sat", start: "2:30AM", duration: "1:00"},
+//   location: "Chandler",
+//   event_type: "Main timeline",
+// },
 
 {
   title: "Breakfast",
@@ -34,7 +34,7 @@ var schedule = [
 {
   title: "Lunch",
   caption: "",
-  time: {day: "sat", start: "1:30PM", duration: "1:30"},
+  time: {day: "sat", start: "1:00PM", duration: "1:00"},
   location: "Chandler",
   event_type: "Main timeline"
 },
@@ -42,7 +42,7 @@ var schedule = [
 {
   title: "Dinner",
   caption: "",
-  time: {day: "sat", start: "6:00PM", duration: "1:00"},
+  time: {day: "sat", start: "5:30PM", duration: "1:30"},
   location: "Chandler",
   event_type: "Main timeline"
 },
@@ -55,13 +55,13 @@ var schedule = [
 //   event_type: "Main timeline"
 // },
 
-{
-  title: "Midnight Snack",
-  caption: "",
-  time: {day: "sat", start: "11:00PM", duration: "1:00"},
-  location: "Chandler",
-  event_type: "Main timeline"
-},
+// {
+//   title: "Midnight Snack",
+//   caption: "",
+//   time: {day: "sat", start: "11:00PM", duration: "1:00"},
+//   location: "Chandler",
+//   event_type: "Main timeline"
+// },
 
 // {
 //   title: "Coffee and Pastries!",
@@ -72,20 +72,13 @@ var schedule = [
 // },
 
 {
-  title: "Breakfast",
+  title: "Brunch",
   caption: "",
-  time: {day: "sun", start: "8:00AM", duration: "1:00"},
+  time: {day: "sun", start: "9:00AM", duration: "3:00"},
   location: "Chandler",
   event_type: "Main timeline",
 },
 
-{
-  title: "Lunch",
-  caption: "",
-  time: {day: "sun", start: "11:30AM", duration: "1:00"},
-  location: "Chandler",
-  event_type: "Main timeline",
-},
 
 // workshops
 
@@ -156,37 +149,37 @@ var schedule = [
 },
 
 {
-  title: "Team-Building Mixer",
+  title: "Team-Building Mixer + Hacking Begins!",
   caption: "",
-  time: {day: "fri", start: "11:00PM", duration: "1:00"},
-  location: "Winnett",
+  time: {day: "fri", start: "10:30PM", duration: "1:00"},
+  location: "TBD",
   event_type: "events"
 },
 
 {
   title: "Hacking Begins!",
   caption: "",
-  time: {day:"fri", start:"11:30PM", duration:"0:30"},
+  time: {day:"fri", start:"11:00PM", duration:"0:30"},
   location: "",
   event_type: "events",
   offset: 1
 },
 
-{
-  title: "Cold Brew",
-  caption: "",
-  time: {day:"sat", start:"12:00AM", duration:"2:00"},
-  location: "Winnett",
-  event_type: "events",
-},
+// {
+//   title: "Cold Brew",
+//   caption: "",
+//   time: {day:"sat", start:"12:00AM", duration:"2:00"},
+//   location: "Winnett",
+//   event_type: "events",
+// },
 
-{
-  title: "5-Hour Energy",
-  caption: "",
-  time: {day:"sat", start:"7:00PM", duration:"3:00"},
-  location: "Winnett",
-  event_type: "events",
-},
+// {
+//   title: "5-Hour Energy",
+//   caption: "",
+//   time: {day:"sat", start:"7:00PM", duration:"3:00"},
+//   location: "Winnett",
+//   event_type: "events",
+// },
 
 // {
 //   title: "Cup Stacking with Swift",
@@ -244,18 +237,18 @@ var schedule = [
 //   event_type: "events"
 // },
 
-{
-  title: "Project Expo",
-  caption: "",
-  time: {day: "sun", start: "12:30PM", duration: "2:00"},
-  location: "Chandler, Winnett",
-  event_type: "events",
-},
+// {
+//   title: "Project Expo",
+//   caption: "",
+//   time: {day: "sun", start: "12:30PM", duration: "2:00"},
+//   location: "Chandler, Winnett",
+//   event_type: "events",
+// },
 
 {
   title: "Closing Ceremony",
   caption: "",
-  time: {day: "sun", start: "3:00PM", duration: "1:30"},
+  time: {day: "sun", start: "2:30PM", duration: "1:30"},
   location: "Beckman Auditorium",
   event_type: "events",
 },
@@ -263,7 +256,7 @@ var schedule = [
 {
   title: "Buses Leave",
   caption: "",
-  time: {day: "sun", start: "4:30PM", duration: "0:30"},
+  time: {day: "sun", start: "4:00PM", duration: "0:30"},
   location: "",
   event_type: "events",
 },
