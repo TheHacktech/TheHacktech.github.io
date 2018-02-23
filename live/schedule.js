@@ -10,31 +10,31 @@ var schedule = [
 
   title: "Dinner",
   caption: "",
-  time: {day: "fri", start: "6:30PM", duration: "2:00"},
+  time: {day: "fri", start: "7:00PM", duration: "2:00"},
   location: "Chandler",
   event_type: "Main timeline"
 },
 
-// {
-//   title: "Midnight Snack",
-//   caption: "",
-//   time: {day: "sat", start: "2:30AM", duration: "1:00"},
-//   location: "Chandler",
-//   event_type: "Main timeline",
-// },
+{
+  title: "Midnight Snack",
+  caption: "Come eat some dumplings!",
+  time: {day: "sat", start: "1:00AM", duration: "1:00"},
+  location: "Chandler",
+  event_type: "Main timeline",
+},
 
 {
   title: "Breakfast",
   caption: "",
-  time: {day: "sat", start: "9:00AM", duration: "1:00"},
+  time: {day: "sat", start: "9:00AM", duration: "2:00"},
   location: "Chandler",
   event_type: "Main timeline"
 },
 
 {
   title: "Lunch",
-  caption: "",
-  time: {day: "sat", start: "1:00PM", duration: "1:00"},
+  caption: "Dessert Sponsored by Disney",
+  time: {day: "sat", start: "12:00PM", duration: "2:00"},
   location: "Chandler",
   event_type: "Main timeline"
 },
@@ -42,7 +42,7 @@ var schedule = [
 {
   title: "Dinner",
   caption: "",
-  time: {day: "sat", start: "5:30PM", duration: "1:30"},
+  time: {day: "sat", start: "5:30PM", duration: "2:00"},
   location: "Chandler",
   event_type: "Main timeline"
 },
@@ -55,13 +55,13 @@ var schedule = [
 //   event_type: "Main timeline"
 // },
 
-// {
-//   title: "Midnight Snack",
-//   caption: "",
-//   time: {day: "sat", start: "11:00PM", duration: "1:00"},
-//   location: "Chandler",
-//   event_type: "Main timeline"
-// },
+{
+  title: "Midnight Snack",
+  caption: "Drink boba and chow down on Banh Mi!",
+  time: {day: "sun", start: "12:00AM", duration: "1:00"},
+  location: "Chandler",
+  event_type: "Main timeline"
+},
 
 // {
 //   title: "Coffee and Pastries!",
@@ -82,13 +82,60 @@ var schedule = [
 
 // workshops
 
-// {
-//   title: "Using the MEAN Stack For Your Hack",
-//   caption: "Microsoft",
-//   time: {day: "sat", start: "12:00AM", duration: "1:00"},
-//   location: "Winnett",
-//   event_type: "Workshops"
-// },
+{
+  title: "Using Cognitive Services to Uncover Your GoT House Pt. 1",
+  caption: "Microsoft",
+  time: {day: "fri", start: "11:00PM", duration: "1:00"},
+  location: "Annenberg 105",
+  event_type: "Workshops"
+},
+
+{
+  title: "Using Cognitive Services to Uncover Your GoT House Pt. 2",
+  caption: "Microsoft",
+  time: {day: "sat", start: "12:00AM", duration: "1:00"},
+  location: "Annenberg 105",
+  event_type: "Workshops"
+},
+
+{
+  title: "Tech Talk",
+  caption: "Disney",
+  time: {day: "sat", start: "1:00AM", duration: "1:00"},
+  event_type: "Workshops"
+},
+
+{
+  title: "Tech Talk",
+  caption: "eBay",
+  time: {day: "sat", start: "2:00AM", duration: "1:00"},
+  event_type: "Workshops"
+},
+
+{
+  title: "Build-a-(Slack)bot Workshop",
+  caption: "Learn how to build a Slack bot for your hack!",
+  time: {day: "sat", start: "3:00AM", duration: "1:00"},
+  location: "Annenberg 105",
+  event_type: "Workshops"
+},
+
+{
+  title: "1517 Fund Office Hours",
+  caption: "Meet with Nick Arnett from 1517 Fund and talk about your project! Check Slack to schedule a meeting.",
+  time: {day: "sat", start: "1:00PM", duration: "4:00"},
+  location: "TBD",
+  event_type: "Workshops"
+},
+
+{
+  title: "How to Board the Intern Ship",
+  caption: "Hack the the internship and job hunting process.",
+  time: {day: "sat", start: "5:00PM", duration: "1:00"},
+  location: "Annenberg 105",
+  event_type: "Workshops"
+},
+
 //
 // {
 //   title: "Build a Chatbot in 15 Minutes",
@@ -141,37 +188,76 @@ var schedule = [
 },
 
 {
-  title: "Opening Ceremony",
+  title: "Buses Arrive",
   caption: "",
+  time: {day: "fri", start: "6:30PM", duration: "1:00"},
+  event_type: "events"
+},
+
+{
+  title: "Opening Ceremony",
+  caption: "Get hyped for Hacktech 2018!",
   time: {day: "fri", start: "9:00PM", duration: "1:30"},
   location: "Beckman Auditorium",
   event_type: "events",
 },
 
 {
-  title: "Team-Building Mixer + Hacking Begins!",
-  caption: "",
+  title: "Team Building",
+  caption: "Find a team to work with!",
   time: {day: "fri", start: "10:30PM", duration: "1:00"},
   location: "TBD",
   event_type: "events"
 },
 
 {
-  title: "Hacking Begins!",
-  caption: "",
-  time: {day:"fri", start:"11:00PM", duration:"0:30"},
-  location: "",
+  title: "Puppies!",
+  caption: "Come relax and play with some adorable puppies!",
+  time: {day:"sat", start:"10:00AM", duration:"1:30"},
+  location: "Avery",
+  event_type: "events"
+},
+
+{
+  title: "1517 Fund Bagel Social",
+  caption: "Eat bagels with 1517 Fund!",
+  time: {day:"sat", start:"10:30AM", duration:"1:00"},
+  location: "Avery Conference",
   event_type: "events",
   offset: 1
 },
 
-// {
-//   title: "Cold Brew",
-//   caption: "",
-//   time: {day:"sat", start:"12:00AM", duration:"2:00"},
-//   location: "Winnett",
-//   event_type: "events",
-// },
+{
+  title: "Human Hamster Balls + Life-Sized Jenga + Tug-of-War",
+  caption: "Get away from the computer and engage in a variety of physical lawn games!",
+  time: {day:"sat", start:"2:00PM", duration:"3:00"},
+  location: "Beckman Mall",
+  event_type: "events"
+},
+
+{
+  title: "Werewolf",
+  caption: "Find the werewolves among yourselves! Hosted by MLH.",
+  time: {day:"sat", start:"8:00PM", duration:"1:00"},
+  location: "Avery Conference",
+  event_type: "events"
+},
+
+{
+  title: "Dance Dance Revolution",
+  caption: "Dance your heart out with DDR!",
+  time: {day:"sat", start:"9:00PM", duration:"1:00"},
+  location: "Avery Conference",
+  event_type: "events"
+},
+
+{
+  title: "Smash Tournament",
+  caption: "Show off your skills and win!",
+  time: {day:"sat", start:"11:00PM", duration:"1:00"},
+  location: "Avery Conference",
+  event_type: "events"
+},
 
 // {
 //   title: "5-Hour Energy",
@@ -237,13 +323,13 @@ var schedule = [
 //   event_type: "events"
 // },
 
-// {
-//   title: "Project Expo",
-//   caption: "",
-//   time: {day: "sun", start: "12:30PM", duration: "2:00"},
-//   location: "Chandler, Winnett",
-//   event_type: "events",
-// },
+{
+  title: "Project Expo",
+  caption: "Show off your spanking new hack!",
+  time: {day: "sun", start: "12:00PM", duration: "2:00"},
+  location: "Avery",
+  event_type: "events",
+},
 
 {
   title: "Closing Ceremony",
@@ -254,8 +340,8 @@ var schedule = [
 },
 
 {
-  title: "Buses Leave",
-  caption: "",
+  title: "Buses Depart",
+  caption: "Don't leave :'(",
   time: {day: "sun", start: "4:00PM", duration: "0:30"},
   location: "",
   event_type: "events",

@@ -310,7 +310,7 @@ i {
 }
 .schedule-item-caption {
     font-weight: normal;
-    margin-top: 10px
+    margin-top: 10px;
 }
 .schedule-item-1 .schedule-item-caption {
     display: inline-block;
@@ -342,12 +342,11 @@ i {
 .schedule-content {
     position: relative;
 }
-#schedule-submit {
+
+#schedule-hacking-begin {
     background: #b4656f;
     color: white;
-    top: 4968px;
-    top: 5200px;
-    top: 4908px;
+    top: 588px;
     position: absolute;
     width: calc(100% - 24px);
     padding: 12px;
@@ -356,6 +355,37 @@ i {
     border-radius: 2px;
     font-weight: 700;
     text-align: center;
+    opacity: 0.8;
+}
+
+#schedule-submit {
+    background: #b4656f;
+    color: white;
+    top: 4200px;
+    position: absolute;
+    width: calc(100% - 24px);
+    padding: 12px;
+    font-size: 16px;
+    line-height: 24px;
+    border-radius: 2px;
+    font-weight: 700;
+    text-align: center;
+    opacity: 1;
+}
+
+#schedule-hacking-end {
+    background: #b4656f;
+    color: white;
+    top: 4320px;
+    position: absolute;
+    width: calc(100% - 24px);
+    padding: 12px;
+    font-size: 16px;
+    line-height: 24px;
+    border-radius: 2px;
+    font-weight: 700;
+    text-align: center;
+    opacity: 1;
 }
 #schedule-guide-left {
     position: absolute;
