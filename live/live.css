@@ -126,6 +126,10 @@ i {
   width: 100px;
 }
 
+#sidebar .links li.apis a:hover:after {
+  width: 100px;
+}
+
 #sidebar .social {
   text-align: center;
   margin-top: 30px;
@@ -361,7 +365,7 @@ i {
 #schedule-submit {
     background: #b4656f;
     color: white;
-    top: 4200px;
+    top: 4788px;
     position: absolute;
     width: calc(100% - 24px);
     padding: 12px;
@@ -376,7 +380,7 @@ i {
 #schedule-hacking-end {
     background: #b4656f;
     color: white;
-    top: 4320px;
+    top: 4908px;
     position: absolute;
     width: calc(100% - 24px);
     padding: 12px;

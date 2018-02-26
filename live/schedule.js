@@ -99,23 +99,9 @@ var schedule = [
 },
 
 {
-  title: "Tech Talk",
-  caption: "Disney",
-  time: {day: "sat", start: "1:00AM", duration: "1:00"},
-  event_type: "Workshops"
-},
-
-{
-  title: "Tech Talk",
-  caption: "eBay",
-  time: {day: "sat", start: "2:00AM", duration: "1:00"},
-  event_type: "Workshops"
-},
-
-{
   title: "Build-a-(Slack)bot Workshop",
   caption: "Learn how to build a Slack bot for your hack!",
-  time: {day: "sat", start: "3:00AM", duration: "1:00"},
+  time: {day: "sat", start: "1:00AM", duration: "1:00"},
   location: "Annenberg 105",
   event_type: "Workshops"
 },
@@ -129,9 +115,25 @@ var schedule = [
 },
 
 {
+  title: "Tech Talk",
+  caption: "eBay",
+  time: {day: "sat", start: "2:00PM", duration: "1:00"},
+  event_type: "Workshops",
+  offset: 1
+},
+
+{
   title: "How to Board the Intern Ship",
   caption: "Hack the the internship and job hunting process.",
   time: {day: "sat", start: "5:00PM", duration: "1:00"},
+  location: "Annenberg 105",
+  event_type: "Workshops"
+},
+
+{
+  title: "Disney Office Hours",
+  caption: "Grab some Hacktech dinner and come chat with Disney!",
+  time: {day: "sat", start: "6:00PM", duration: "1:00"},
   location: "Annenberg 105",
   event_type: "Workshops"
 },
@@ -232,6 +234,14 @@ var schedule = [
   caption: "Get away from the computer and engage in a variety of physical lawn games!",
   time: {day:"sat", start:"2:00PM", duration:"3:00"},
   location: "Beckman Mall",
+  event_type: "events"
+},
+
+{
+  title: "Lightsaber Battle!",
+  caption: "Battle it out to win some lightsabers from Disney!",
+  time: {day:"sat", start:"7:00PM", duration:"1:00"},
+  location:"TBD",
   event_type: "events"
 },
 
