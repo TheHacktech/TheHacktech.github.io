@@ -98,10 +98,20 @@ var schedule = [
   event_type: "Workshops"
 },
 
+
+{
+  title: "Tech Talk",
+  caption: "eBay",
+  time: {day: "sat", start: "1:00AM", duration: "1:00"},
+  location: "Annenberg 105",
+  event_type: "Workshops",
+  offset: 1
+},
+  
 {
   title: "Build-a-(Slack)bot Workshop",
   caption: "Learn how to build a Slack bot for your hack!",
-  time: {day: "sat", start: "1:00AM", duration: "1:00"},
+  time: {day: "sat", start: "2:00AM", duration: "1:00"},
   location: "Annenberg 105",
   event_type: "Workshops"
 },
@@ -112,14 +122,6 @@ var schedule = [
   time: {day: "sat", start: "1:00PM", duration: "4:00"},
   location: "TBD",
   event_type: "Workshops"
-},
-
-{
-  title: "Tech Talk",
-  caption: "eBay",
-  time: {day: "sat", start: "2:00PM", duration: "1:00"},
-  event_type: "Workshops",
-  offset: 1
 },
 
 {
