@@ -130,7 +130,7 @@ var schedule = [
 
 {
   title: "How to Board the Intern Ship",
-  caption: "Hack the the internship and job hunting process.",
+  caption: "Hack the internship and job hunting process.",
   time: {day: "sat", start: "5:00PM", duration: "1:00"},
   location: "Annenberg 105",
   event_type: "Workshops"
