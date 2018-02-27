@@ -43,7 +43,7 @@ i {
 
 #sidebar {
   flex: 0 0 375px;
-  width: 400px;
+  width: 30vw;
   height: 100%;
   background-color: #546db2;
   color: #fff;
@@ -218,6 +218,10 @@ i {
     position: absolute;
     top: 59px;
     width: 100%;
+}
+
+.schedule-column-container {
+    display:flex;
 }
 .schedule-column {
     width: calc(33% - 6px);
