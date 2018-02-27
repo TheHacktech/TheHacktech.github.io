@@ -91,7 +91,7 @@ function createScheduleCard(title, caption, time, event_type, location) {
 	$card.append($title).append($hour)
 	if (caption) $card.append($caption);
 	$("body").append($card)
-	if (110 > card_height) $card.addClass("shortened")
+	//if (110 > card_height) $card.addClass("shortened")
 	$card.css({"top": offset, "height": card_height});
 	return $card;
 }
