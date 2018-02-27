@@ -495,7 +495,7 @@ i {
     left: 0;
     overflow: hidden;
     width: 100%;
-    height: 4440px;
+    height: 100% !important;
   }
   .schedule-column-container {
     display: block;
