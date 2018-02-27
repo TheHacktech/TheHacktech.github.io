@@ -31,6 +31,7 @@ i {
   display: flex;
   flex-direction: row;
   flex: 1;
+  height: 100vh;
 }
 
 /* MLH STUFF */
@@ -42,12 +43,12 @@ i {
 /*Sidebar stuff*/
 
 #sidebar {
-  flex: 0 0 375px;
+  flex: 0 0 30vw;
   width: 30vw;
+  max-width: 400px;
   height: 100%;
   background-color: #546db2;
   color: #fff;
-  position: fixed;
   overflow-y: scroll;
 }
 
@@ -143,15 +144,16 @@ i {
 /*Container stuff*/
 
 .container {
-  margin-left: 400px;
+  margin-left: 30px;
   color: #546db2;
   width: 100%;
   height: 100%;
+  overflow: auto;
 }
 
 .container .content {
   margin-top: 50px;
-  margin-left: 150px;
+  margin-left: 60px;
   padding-right: 50px;
 }
 
@@ -351,6 +353,11 @@ i {
     position: relative;
 }
 
+.schedule-banner {
+    width: 100% !important;
+    z-index: 1;
+}
+
 #schedule-hacking-begin {
     background: #b4656f;
     color: white;
@@ -491,6 +498,7 @@ i {
     height: 4440px;
   }
   .schedule-column-container {
+    display: block;
     width: 100%;
     height: 100%;
   }
@@ -508,6 +516,7 @@ i {
       top: -6px;
   }
   .schedule-item {
+      width: calc(100% - 80px); 
       margin-left: 60px;
   }
 
@@ -535,10 +544,7 @@ i {
   .schedule-calendar-hour {
       margin-left: 60px;
   }
-  #schedule-submit {
-    width: calc(100% - 84px);
-    right: 0px;
-  }
+
   #schedule-guide-right {
     display: block;
   }
