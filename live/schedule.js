@@ -256,7 +256,7 @@ var schedule = [
 {
   title: "Dance Dance Revolution",
   caption: "Dance your heart out with DDR!",
-  time: {day:"sat", start:"9:00PM", duration:"1:00"},
+  time: {day:"sat", start:"9:30PM", duration:"1:00"},
   location: "Avery Conference",
   event_type: "events"
 },
@@ -264,7 +264,7 @@ var schedule = [
 {
   title: "Smash Tournament",
   caption: "Show off your skills and win!",
-  time: {day:"sat", start:"11:00PM", duration:"1:00"},
+  time: {day:"sat", start:"11:00PM", duration:"1:30"},
   location: "Avery Conference",
   event_type: "events"
 },
