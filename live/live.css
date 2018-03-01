@@ -370,7 +370,7 @@ i {
     border-radius: 2px;
     font-weight: 700;
     text-align: center;
-    opacity: 0.8;
+    opacity: 0.6;
 }
 
 #schedule-submit {
@@ -385,7 +385,7 @@ i {
     border-radius: 2px;
     font-weight: 700;
     text-align: center;
-    opacity: 0.8;
+    opacity: 0.6;
 }
 
 #schedule-hacking-end {
@@ -400,7 +400,7 @@ i {
     border-radius: 2px;
     font-weight: 700;
     text-align: center;
-    opacity: 0.8;
+    opacity: 0.6;
 }
 #schedule-guide-left {
     position: absolute;
