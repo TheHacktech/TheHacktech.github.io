@@ -208,7 +208,7 @@ var schedule = [
   title: "Team Building",
   caption: "Find a team to work with!",
   time: {day: "fri", start: "10:30PM", duration: "1:00"},
-  location: "TBD",
+  location: "Beckman Auditorium",
   event_type: "events"
 },
 
