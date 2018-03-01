@@ -335,7 +335,7 @@ var schedule = [
 
 {
   title: "Project Expo",
-  caption: "Show off your spanking new hack!",
+  caption: "Show off your fantastic new hack!",
   time: {day: "sun", start: "12:00PM", duration: "2:00"},
   location: "Avery",
   event_type: "events",
