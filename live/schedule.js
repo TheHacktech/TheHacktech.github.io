@@ -47,14 +47,6 @@ var schedule = [
   event_type: "Main timeline"
 },
 
-// {
-//   title: "Monster!",
-//   caption: "",
-//   time: {day: "sat", start: "8:00PM", duration: "2:00"},
-//   location: "Chandler",
-//   event_type: "Main timeline"
-// },
-
 {
   title: "Midnight Snack",
   caption: "Drink boba and chow down on Banh Mi!",
@@ -63,13 +55,13 @@ var schedule = [
   event_type: "Main timeline"
 },
 
-// {
-//   title: "Coffee and Pastries!",
-//   caption: "",
-//   time: {day: "sun", start: "7:00AM", duration: "4:00"},
-//   location: "Red Door Cafe",
-//   event_type: "Main timeline"
-// },
+{
+  title: "Donuts!",
+  caption: "Enjoy some early morning donuts.",
+  time: {day: "sun", start: "6:00AM", duration: "1:00"},
+  location: "Chandler",
+  event_type: "Main timeline"
+},
 
 {
   title: "Brunch",
@@ -99,8 +91,8 @@ var schedule = [
 },
 
 {
-  title: "Tech Talk",
-  caption: "eBay",
+  title: "Code for Ca$hflow w/ eBay APIs",
+  caption: "Dan Fain, fellow ‘Tech-er and VP of Data Platform Engineering, and team will give you a download about transformative tech at eBay…and how you can turn your code into cashflow through their APIs.",
   time: {day: "sat", start: "1:00AM", duration: "1:00"},
   location: "Annenberg 105",
   event_type: "Workshops"
