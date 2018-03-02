@@ -47,14 +47,6 @@ var schedule = [
   event_type: "Main timeline"
 },
 
-// {
-//   title: "Monster!",
-//   caption: "",
-//   time: {day: "sat", start: "8:00PM", duration: "2:00"},
-//   location: "Chandler",
-//   event_type: "Main timeline"
-// },
-
 {
   title: "Midnight Snack",
   caption: "Drink boba and chow down on Banh Mi!",
@@ -63,13 +55,13 @@ var schedule = [
   event_type: "Main timeline"
 },
 
-// {
-//   title: "Coffee and Pastries!",
-//   caption: "",
-//   time: {day: "sun", start: "7:00AM", duration: "4:00"},
-//   location: "Red Door Cafe",
-//   event_type: "Main timeline"
-// },
+{
+  title: "Donuts!",
+  caption: "Enjoy some early morning donuts.",
+  time: {day: "sun", start: "6:00AM", duration: "1:00"},
+  location: "Chandler",
+  event_type: "Main timeline"
+},
 
 {
   title: "Brunch",
@@ -99,8 +91,8 @@ var schedule = [
 },
 
 {
-  title: "Tech Talk",
-  caption: "eBay",
+  title: "Code for Ca$hflow w/ eBay APIs",
+  caption: "Dan Fain, fellow ‘Tech-er and VP of Data Platform Engineering, and team will give you a download about transformative tech at eBay…and how you can turn your code into cashflow through their APIs.",
   time: {day: "sat", start: "1:00AM", duration: "1:00"},
   location: "Annenberg 105",
   event_type: "Workshops"
@@ -213,10 +205,10 @@ var schedule = [
 },
 
 {
-  title: "Puppies!",
-  caption: "Come relax and play with some adorable puppies!",
+  title: "Puppy Party!",
+  caption: "Take a break and come play with these adorable bundles of joy!",
   time: {day:"sat", start:"10:00AM", duration:"1:30"},
-  location: "Avery",
+  location: "Avery Garage",
   event_type: "events"
 },
 
@@ -230,18 +222,10 @@ var schedule = [
 },
 
 {
-  title: "Human Hamster Balls + Life-Sized Jenga + Tug-of-War",
-  caption: "Get away from the computer and engage in a variety of physical lawn games!",
+  title: "Lightsaber Battle + Human Hamster Balls + Life-Sized Jenga + Tug-of-War",
+  caption: "Get away from the computer and get your game-face on!",
   time: {day:"sat", start:"2:00PM", duration:"3:00"},
-  location: "Beckman Mall",
-  event_type: "events"
-},
-
-{
-  title: "Lightsaber Battle!",
-  caption: "Battle it out to win some lightsabers from Disney!",
-  time: {day:"sat", start:"7:00PM", duration:"1:00"},
-  location:"TBD",
+  location: "Beckman Mall, or Avery Garage (rain)",
   event_type: "events"
 },
 
