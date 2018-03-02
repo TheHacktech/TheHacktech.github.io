@@ -224,7 +224,7 @@ var schedule = [
 {
   title: "Lightsaber Battle + Human Hamster Balls + Life-Sized Jenga + Tug-of-War",
   caption: "Get away from the computer and get your game-face on!",
-  time: {day:"sat", start:"2:00PM", duration:"3:00"},
+  time: {day:"sat", start:"3:00PM", duration:"2:00"},
   location: "Beckman Mall, or Avery Garage (rain)",
   event_type: "events"
 },
