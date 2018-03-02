@@ -222,18 +222,10 @@ var schedule = [
 },
 
 {
-  title: "Human Hamster Balls + Life-Sized Jenga + Tug-of-War",
-  caption: "Get away from the computer and engage in a variety of physical lawn games!",
+  title: "Lightsaber Battle + Human Hamster Balls + Life-Sized Jenga + Tug-of-War",
+  caption: "Get away from the computer and get your game-face on!",
   time: {day:"sat", start:"2:00PM", duration:"3:00"},
-  location: "Beckman Mall",
-  event_type: "events"
-},
-
-{
-  title: "Lightsaber Battle!",
-  caption: "Battle it out to win some lightsabers from Disney!",
-  time: {day:"sat", start:"7:00PM", duration:"1:00"},
-  location:"TBD",
+  location: "Beckman Mall, or Avery Garage (rain)",
   event_type: "events"
 },
 
