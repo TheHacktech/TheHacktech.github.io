@@ -205,10 +205,10 @@ var schedule = [
 },
 
 {
-  title: "Puppies!",
-  caption: "Come relax and play with some adorable puppies!",
+  title: "Puppy Party!",
+  caption: "Take a break and come play with these adorable bundles of joy!",
   time: {day:"sat", start:"10:00AM", duration:"1:30"},
-  location: "Avery",
+  location: "Avery Garage",
   event_type: "events"
 },
 
