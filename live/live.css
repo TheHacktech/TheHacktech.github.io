@@ -128,7 +128,7 @@ i {
 }
 
 #sidebar .links li.apis a:hover:after {
-  width: 35px;
+  width: 80px;
 }
 
 #sidebar .links li.map a:hover:after {
