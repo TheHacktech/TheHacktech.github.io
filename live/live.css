@@ -116,7 +116,7 @@ i {
 }
 
 #sidebar .links li.slack a:hover:after {
-  width: 55px;
+  width: 46px;
 }
 
 #sidebar .links li.guide a:hover:after {
@@ -133,6 +133,10 @@ i {
 
 #sidebar .links li.map a:hover:after {
   width: 45px;
+}
+
+#sidebar .links li.devpost a:hover:after {
+  width: 80px;
 }
 
 #sidebar .social {
