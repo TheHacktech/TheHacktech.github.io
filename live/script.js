@@ -176,9 +176,9 @@ function appendCard(card) {
 
 $(document).ready(function(){
 
-	// setInterval(function(){
-	// 	update_schedule_indicator();
-	// }, 1000);
+	setInterval(function(){
+		update_schedule_indicator();
+	}, 1000);
 
 	// countdown = countdown(new Date(), function(ts){
 	// 	$('#header-countdown-day').text(ts.days);
