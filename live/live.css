@@ -157,7 +157,11 @@ i {
 
 .container .content {
   margin-top: 50px;
+<<<<<<< Updated upstream
   margin-left: 65px;
+=======
+  margin-left: 70px;
+>>>>>>> Stashed changes
   padding-right: 50px;
 }
 
@@ -199,7 +203,25 @@ i {
 /*    opacity: 0.36;*/
     margin-bottom: 12px;
     text-align: center;
+    z-index: 3;
+    position: relative;
+    background-color: white;
+    border-bottom: solid 1px grey;
+    padding-top: 50px;
+    margin-top: -50px;
+    margin-right: -10px;
+    margin-left: -10px;
 }
+.schedule-column:first-child .schedule-venue {
+    padding-left: 70px;
+    margin-left: -70px;
+}
+
+.schedule-column:last-child .schedule-venue {
+    padding-right: 10px;
+    margin-right: -10px;
+}
+
 .schedule-calendar-hour {
     border-top: 1px solid rgba(0, 0, 0, 0.1);
     height: 120px;
@@ -490,7 +512,7 @@ i {
 
   .container .content {
     margin: 0px;
-    padding: 60px 30px;
+    padding: 30px 30px;
   }
 
   .schedule-content {

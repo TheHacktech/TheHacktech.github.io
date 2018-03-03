@@ -197,6 +197,22 @@ $(document).ready(function(){
 	} else {
 		BROWSER = 'undefined';
 	}
+	Function.prototype.debounce = function (threshold, execAsap) {
+	    var func = this, timeout;
+	    return function debounced () {
+	        var obj = this, args = arguments;
+	        function delayed () {
+	            if (!execAsap)
+	                func.apply(obj, args);
+	            timeout = null; 
+	        };
+	        if (timeout)
+	            clearTimeout(timeout);
+	        else if (execAsap)
+	            func.apply(obj, args);
+	        timeout = setTimeout(delayed, threshold || 100); 
+	    };
+	}
 
 	VIEWPORT_WIDTH = $(window).width();
 
@@ -211,8 +227,16 @@ $(document).ready(function(){
 			elasticPullResistance: 0.0,
 			elasticFrictionCoefficient: 0.3
 		});
+		$('.container').scroll(function(){
+			var scrollPos = $('.container').scrollTop();
+			$(".schedule-venue").css({"transform":"translate(0,"+scrollPos+"px)"})
+		}.debounce(1, false));
+	} else {
+		$('.container').scroll(function(){
+			var scrollPos = $('.container').scrollTop();
+			$(".schedule-venue").css({"transform":"translate(0,"+scrollPos+"px)"})
+		});
 	}
-
 	$(window).resize(function(){
 
 		var new_width = $(window).width();
@@ -231,10 +255,18 @@ $(document).ready(function(){
 					elasticPullResistance: 0.0,
 					elasticFrictionCoefficient: 0.3
 				});
+				$('.container').scroll(function(){
+					var scrollPos = $('.container').scrollTop();
+					$(".schedule-venue").css({"transform":"translate(0,"+scrollPos+"px)"})
+				}.debounce(1, false));
 			} else {
 				$('.schedule-content').iosSlider('destroy');
 				$('#schedule-guide-left').hide();
 				$('#schedule-guide-right').hide();
+				$('.container').scroll(function(){
+					var scrollPos = $('.container').scrollTop();
+					$(".schedule-venue").css({"transform":"translate(0,"+scrollPos+"px)"})
+				});
 			}
 			VIEWPORT_WIDTH = new_width;
 		}
