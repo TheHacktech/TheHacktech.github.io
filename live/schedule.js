@@ -81,6 +81,14 @@ var schedule = [
   location: "Annenberg 105",
   event_type: "Workshops"
 },
+  
+{
+  title: "Machine Learning with AWS ML",
+  caption: "Amazon",
+  time: {day: "sat", start: "11:00AM", duration: "1:00"},
+  location: "Annenberg 105",
+  event_type: "Workshops"
+},
 
 {
   title: "Using Cognitive Services to Uncover Your GoT House Pt. 2",
