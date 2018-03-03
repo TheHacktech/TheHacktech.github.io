@@ -118,7 +118,7 @@ var schedule = [
   title: "1517 Fund Office Hours",
   caption: "Meet with Nick Arnett from 1517 Fund and talk about your project! Check Slack to schedule a meeting.",
   time: {day: "sat", start: "1:00PM", duration: "4:00"},
-  location: "TBD",
+  location: "Red Door Cafe",
   event_type: "Workshops"
 },
 
@@ -230,10 +230,10 @@ var schedule = [
 },
 
 {
-  title: "Lightsaber Battle + Human Hamster Balls + Life-Sized Jenga + Tug-of-War",
+  title: "Life-Sized Jenga + Board Games",
   caption: "Get away from the computer and get your game-face on!",
   time: {day:"sat", start:"3:00PM", duration:"2:00"},
-  location: "Beckman Mall, or Avery Garage (rain)",
+  location: "Avery Conference Room",
   event_type: "events"
 },
 
