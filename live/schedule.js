@@ -134,7 +134,7 @@ var schedule = [
   title: "Disney Office Hours",
   caption: "Grab some Hacktech dinner and come chat with Disney!",
   time: {day: "sat", start: "6:00PM", duration: "1:00"},
-  location: "Chandler",
+  location: "Annenberg 105",
   event_type: "Workshops"
 },
 
