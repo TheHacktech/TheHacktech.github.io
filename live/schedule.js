@@ -42,7 +42,7 @@ var schedule = [
 {
   title: "Dinner",
   caption: "",
-  time: {day: "sat", start: "5:30PM", duration: "2:00"},
+  time: {day: "sat", start: "6:00PM", duration: "2:00"},
   location: "Chandler",
   event_type: "Main timeline"
 },
