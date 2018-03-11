@@ -42,7 +42,7 @@ var schedule = [
 {
   title: "Dinner",
   caption: "",
-  time: {day: "sat", start: "5:30PM", duration: "2:00"},
+  time: {day: "sat", start: "6:00PM", duration: "2:00"},
   location: "Chandler",
   event_type: "Main timeline"
 },
@@ -134,7 +134,7 @@ var schedule = [
   title: "Disney Office Hours",
   caption: "Grab some Hacktech dinner and come chat with Disney!",
   time: {day: "sat", start: "6:00PM", duration: "1:00"},
-  location: "Annenberg 105",
+  location: "Chandler Bar",
   event_type: "Workshops"
 },
 
