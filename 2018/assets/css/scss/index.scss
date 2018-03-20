@@ -10,9 +10,10 @@ $rosegold: #cd989f;
 $lighter: #f1e2e4;
 $pjblue: #55b6e7;
 $ttteal: #84d1e3;
-$metroblue: #536bb1;
+$metroblue: #546db2;
 $maincolor: $metroblue;
-$scroll: #55b;
+$scroll: $metroblue;
+$logo_size: 240px;
 
 * {
   padding: 0;
@@ -52,7 +53,7 @@ html, body{
   }
 
   img {
-    max-height: 40%;
+    max-height: 40%;//100%;
     width: auto;
   }
 
@@ -379,4 +380,125 @@ html, body{
       font-size: 14px;
     }
   }
+}
+
+/* Fancy logo */
+
+@-webkit-keyframes spincube {
+  from,to  { -webkit-transform: rotateX(0deg) rotateY(0deg) rotateZ(0deg); }
+  16%      { -webkit-transform: rotateY(-90deg);                           }
+  33%      { -webkit-transform: rotateY(-90deg) rotateZ(90deg);            }
+  50%      { -webkit-transform: rotateY(-180deg) rotateZ(90deg);           }
+  66%      { -webkit-transform: rotateY(-270deg) rotateX(90deg);           }
+  83%      { -webkit-transform: rotateX(90deg);                            }
+}
+
+@keyframes spincube {
+  from,to {
+    -moz-transform: rotateX(0deg) rotateY(0deg) rotateZ(0deg);
+    -ms-transform: rotateX(0deg) rotateY(0deg) rotateZ(0deg);
+    transform: rotateX(0deg) rotateY(0deg) rotateZ(0deg);
+  }
+  16% {
+    -moz-transform: rotateY(-90deg);
+    -ms-transform: rotateY(-90deg);
+    transform: rotateY(-90deg);
+  }
+  33% {
+    -moz-transform: rotateY(-90deg) rotateZ(90deg);
+    -ms-transform: rotateY(-90deg) rotateZ(90deg);
+    transform: rotateY(-90deg) rotateZ(90deg);
+  }
+  50% {
+    -moz-transform: rotateY(-180deg) rotateZ(90deg);
+    -ms-transform: rotateY(-180deg) rotateZ(90deg);
+    transform: rotateY(-180deg) rotateZ(90deg);
+  }
+  66% {
+    -moz-transform: rotateY(-270deg) rotateX(90deg);
+    -ms-transform: rotateY(-270deg) rotateX(90deg);
+    transform: rotateY(-270deg) rotateX(90deg);
+  }
+  83% {
+    -moz-transform: rotateX(90deg);
+    -ms-transform: rotateX(90deg);
+    transform: rotateX(90deg);
+  }
+}
+
+.cubespinner {
+  -webkit-animation-name: spincube;
+  -webkit-animation-timing-function: ease-in-out;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-animation-duration: 18s;
+
+  animation-name: spincube;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+  animation-duration: 18s;
+
+  -webkit-transform-style: preserve-3d;
+  -moz-transform-style: preserve-3d;
+  -ms-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+
+  -webkit-transform-origin: 0.5*$logo_size 0.5*$logo_size 0;
+  -moz-transform-origin: 0.5*$logo_size 0.5*$logo_size 0;
+  -ms-transform-origin: 0.5*$logo_size 0.5*$logo_size 0;
+  transform-origin: 0.5*$logo_size 0.5*$logo_size 0;
+}
+
+.cubespinner div {
+  position: absolute;
+  width: $logo_size;
+  height: $logo_size;
+  border: 0px solid #fff;
+  background: $maincolor /*rgba(255,255,255,0.8)*/;
+  box-shadow: inset 0 0 20px rgba(0,0,0,0.2);
+  line-height: $logo_size;
+  text-align: center;
+  font-size: 100px;
+}
+
+.cubespinner .face1 {
+  -webkit-transform: translateZ(0.5*$logo_size);
+  -moz-transform: translateZ(0.5*$logo_size);
+  -ms-transform: translateZ(0.5*$logo_size);
+  transform: translateZ(0.5*$logo_size);
+  -webkit-backface-visibility: hidden;
+}
+.cubespinner .face2 {
+  -webkit-transform: rotateY(90deg) translateZ(0.5*$logo_size);
+  -moz-transform: rotateY(90deg) translateZ(0.5*$logo_size);
+  -ms-transform: rotateY(90deg) translateZ(0.5*$logo_size);
+  transform: rotateY(90deg) translateZ(0.5*$logo_size);
+  -webkit-backface-visibility: hidden;
+}
+.cubespinner .face3 {
+  -webkit-transform: rotateY(90deg) rotateX(90deg) translateZ(0.5*$logo_size);
+  -moz-transform: rotateY(90deg) rotateX(90deg) translateZ(0.5*$logo_size);
+  -ms-transform: rotateY(90deg) rotateX(90deg) translateZ(0.5*$logo_size);
+  transform: rotateY(90deg) rotateX(90deg) translateZ(0.5*$logo_size);
+  -webkit-backface-visibility: hidden;
+}
+.cubespinner .face4 {
+  -webkit-transform: rotateY(180deg) rotateZ(90deg) translateZ(0.5*$logo_size);
+  -moz-transform: rotateY(180deg) rotateZ(90deg) translateZ(0.5*$logo_size);
+  -ms-transform: rotateY(180deg) rotateZ(90deg) translateZ(0.5*$logo_size);
+  transform: rotateY(180deg) rotateZ(90deg) translateZ(0.5*$logo_size);
+  -webkit-backface-visibility: hidden;
+}
+.cubespinner .face5 {
+  -webkit-transform: rotateY(-90deg) rotateZ(90deg) translateZ(0.5*$logo_size);
+  -moz-transform: rotateY(-90deg) rotateZ(90deg) translateZ(0.5*$logo_size);
+  -ms-transform: rotateY(-90deg) rotateZ(90deg) translateZ(0.5*$logo_size);
+  transform: rotateY(-90deg) rotateZ(90deg) translateZ(0.5*$logo_size);
+  -webkit-backface-visibility: hidden;
+}
+.cubespinner .face6 {
+  -webkit-transform: rotateX(-90deg) translateZ(0.5*$logo_size);
+  -moz-transform: rotateX(-90deg) translateZ(0.5*$logo_size);
+  -ms-transform: rotateX(-90deg) translateZ(0.5*$logo_size);
+  transform: rotateX(-90deg) translateZ(0.5*$logo_size);
+  -webkit-backface-visibility: hidden;
 }

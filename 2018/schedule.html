@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="icon" type="image/png" href="live/favicon.ico">
+        <link rel="stylesheet" type="text/css" href="live/live.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="google-site-verification" content="wUBONmJcOp2V_kVCSRtcYuTz_DGBBneBtFtRkY5a-pE" />
+        <script src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+        <script src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+        <script src="live/jquery.iosslider.js"></script>
+        <script src="live/schedule.js"></script>
+        <script src="live/script.js"></script>
+        <title>Hacktech 2018: Schedule</title>
+    </head>
+    <body>
+        <div id="wrapper">
+            <div id="sidebar">
+                <div class="wrapper">
+                    <img class="icon" src="live/logo.png" />
+                    <p class="name">Hacktech</p>
+                    <!-- <p class="info">March 2-4, 2018</p> -->
+                    <p class="info">is live!</p>
+                    <p class="slogan">#gitpumped</p>
+                    <ul class="links">
+                        <li class="slack"><a href="http://hacktech2018.slack.com">Slack</a></li>
+                        <li class="slack"><a href="https://tinyurl.com/ht2018tables">Project expo table numbers</a></li>
+                        <li class="guide"><a href="https://docs.google.com/document/d/1qvS1Er4jD8DbLktK0MngqdtWzm5ovLiIQhg1Us6j3Bk/edit">Hacker Guide</a></li>
+                        <li class="map"><a href="./files/Hacktech_Map.pdf">Map</a></li>
+                        <li class="contact"><a href="mailto:team@hacktech.io">Contact us</a></li>
+                        <li class="apis"><a href="https://docs.google.com/document/d/1kB4szB-rkhbMQX7kfB9BH6otbd1Q7WEaScCvghv8Awo/edit">Prizes/APIs</a></li>
+                        <li class="devpost"><a href="https://hacktech2018.devpost.com">Devpost</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="container">
+                <div class="content">
+                    <div id="schedule">
+                        <div id="schedule-calendar"></div>
+                        <div id="schedule-guide-left"><img class="img-scaled" /></div>
+                        <div id="schedule-guide-right"><img class="img-scaled"/></div>
+                        <div class="schedule-content">
+                            <div class="schedule-column-container">
+
+                                <!-- 30 minute blocks get schedule-item-1 class, 60 minute blocks get schedule-item-2, etc. -->
+                                <!-- For empty blocks, make sure the height value is 60 * # of 30 minute blocks. For example, if the empty block is 2.5 hours, make height 300px. -->
+
+                                <div class="schedule-column" id="main-timeline">
+                                    <div class="schedule-venue">Food</div>
+                                </div>
+                                <div class="schedule-column" id="workshops">
+                                    <div class="schedule-venue">Workshops</div>
+                                </div>
+                                <div class="schedule-column" id="events">
+                                    <div class="schedule-venue">Events</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="schedule-banner" id="schedule-hacking-begin">Hacking begins! [10:30 PM]</div>
+                        <div class="schedule-banner" id="schedule-submit">Your submissions are due! [9:30 AM]</div>
+                        <div class="schedule-banner" id="schedule-hacking-end">Hacking ends! [10:30 AM]</div>
+                        <div id="schedule-indicator"></div>
+                    </div>
+                </div>
+                <div id="footer">A big thanks to <a href="https://www.linkedin.com/in/zhi-pan-a3903095">Zhi Pan</a> and <a href="http://www.designbyroka.com/">Shawn Park</a> for the schedule.js code!</div>
+            </div>
+        </div>
+
+    </body>
+</html>
