@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link href="assets/css/index.css" rel="stylesheet">
+    <link rel="shortcut icon" type="image/x-icon" href="./assets/img/favicon.ico" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/3.1.0/firebase.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-backstretch/2.0.4/jquery.backstretch.min.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Caltech's annual Hackathon!">
+    <title>Hacktech 2018</title>
+  </head>
+  <body>
+    <section id="landing">
+      <div class="contents">
+        <img id="hektek" src="assets/img/logo_2018.png" />
+        <!--<div class="stage" style="width: 240px; height: 240px;">
+        <div class="cubespinner">
+        <div class="face1"><img src="assets/img/logo_2018.png"></div>
+        <div class="face2"><img src="assets/img/HAHAHAH.png"></div>
+        <div class="face3"><img src="assets/img/tt12.png"></div>
+        <div class="face4"><img src="assets/img/icecreamstack.png"></div>
+        <div class="face5"><img src="assets/img/flamebuddy_icecream.png"></div>
+        <div class="face6"><img src="assets/img/flamebuddyicecream2.png"></div>
+        </div>
+        </div>
+        <br>
+        <br>
+        <br>
+        <br>-->
+        <h1>Hacktech 2018</h1>
+        <h3>March 2-4, 2018 @ Pasadena, CA</h3>
+        <!-- PRE-APPLICATION INTEREST FORM -->
+        <!-- <div id="form"><input type="email" id="hackerEmail" placeholder="Email">
+        <button type="btn btn-primary" id="updatebtn" onclick="save()">Receive Updates</button></div> -->
+        <!-- <div id="form"><button type="btn btn-primary" id="updatebtn" onclick="window.open('[INTEREST_FORM_LINK]')">Apply Here on 12/9!</button> -->
+        <!-- APPLICATION -->
+        <!-- <button id="apply" onclick="location.href='[TYPEFORM_LINK]';">Apply</button> -->
+        <button id="apply">Applications are closed!</button>
+      </div>
+    </section>
+    <section id="intro">
+      <div class="contents">
+        <p><b>This is Hacktech.</b></p>
+        <p>A place where, given a total of 36 thrilling hours with your team, your idea, and our fuel (in the form of snacks, drinks, and more), you produce a fantastic project, while forming lasting relationships and chugging more caffeine than you ever thought possible.</p>
+      </div>
+    </section>
+    <section id="faq">
+      <div class="contents">
+        <h3>FAQ</h3>
+        <div class="faqcolumn">
+          <div class="faqelem">
+            <div class="question">Tell me more!</div>
+            <div class="answer">Hacktech is Caltech's premier intercollegiate hackathon: for 36 hours, nearly 400 awesome student hackers will identify and build innovative, technological solutions to solve problems in a variety of disciplines.</div>
+          </div>
+          <div class="faqelem">
+            <div class="question">Who can come?</div>
+            <div class="answer">Any undergraduate or graduate students from anywhere in the world. We admit high school students on a case-by-case basis, and also welcome beginners - Hacktech is meant to be a learning experience! We want you to come here to have fun and leave having learned something.</div>
+          </div>
+          <div class="faqelem">
+            <div class="question">How do teams work?</div>
+            <div class="answer">You can sign up as a team of up to four members. Make sure that all of your team members submit an application! If you don't have a team before the event, don't fret! We will help you find fellow hackers to work with once you arrive.</div>
+          </div>
+          <div class="faqelem">
+            <div class="question">What should I bring?</div>
+            <div class="answer">A student ID, a laptop, and a charger are the only necessities. We recommend you bring clothes, toiletries, and a sleeping bag as well!</div>
+          </div>
+          <div class="faqelem">
+            <div class="question">What can I create?</div>
+            <div class="answer">Absolutely anything you want - websites, apps, hardware, you name it. We encourage you to go above and beyond the typical software project and make something that combines software with finance / medicine / electronics / science!</div>
+          </div>
+          <div class="faqelem">
+            <div class="question">How much will it cost?</div>
+            <div class="answer">It's absolutely free! We'll be providing you with meals, a place to hack, and swag. We will also be offering travel reimbursements on a case-by-case basis!</div>
+          </div>
+        </div>
+        <div class="faqcolumn">
+          <div class="faqelem">
+            <div class="question">How will I get there?</div>
+            <div class="answer">We will be sending buses free of charge to certain universities in SoCal and NorCal. We may also be giving out travel reimbursements for flights to out-of-state hackers!</div>
+          </div>
+          <div class="faqelem">
+            <div class="question">Anything else I should know?</div>
+            <div class="answer">There are a few things we don't encourage; you should refer to the MLH Code of Conduct <a href="https://static.mlh.io/docs/mlh-code-of-conduct.pdf" target="_blank">here</a> for some guidelines to follow. Also, be smart - don't use/bring anything that you obviously shouldn't, including: alcohol, open flames, firearms, katanas, candy canes, maces, bassoons, etc.</div>
+          </div>
+          <div class="faqelem">
+            <div class="question">Sounds great, how do I apply?</div>
+            <div class="answer">Applications are closed. Acceptances have been sent out :)</div>
+          </div>
+          <div class="faqelem">
+            <div class="question">What if I'm a Caltech student?</div>
+            <div class="answer">The application process is no different for Caltech students.</div>
+          </div>
+          <div class="faqelem">
+            <div class="question">Help!</div>
+            <div class="answer">Shoot us an email at team@hacktech.io and we'll get back to you before you can say "Hacktech is awe-!"</div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="sponsors">
+      <div class="contents">
+        <h3>Hacktech 2018 Sponsors</h3>
+        <h5>Coming soon! Interested in returning as or becoming a sponsor? Let us know at <a href="mailto:sponsors@hacktech.io">sponsors@hacktech.io</a>!</h5>
+        <img class="sponsor" src="assets/img/logo/microsoft.png" />
+        <!--<br>-->
+        <img class="sponsor" src="assets/img/logo/disney.png" />
+        <img class="sponsor" src="assets/img/logo/ebay.png" />
+        <img class="sponsor" src="assets/img/logo/twilio.png" />
+        <img class="sponsor" src="assets/img/logo/northrop_grumman.png" />
+        <img class="sponsor" src="assets/img/logo/sapient.png" />
+        <img class="sponsor" src="assets/img/logo/google.png" />
+        <img class="sponsor" src="assets/img/logo/facebook.png" />
+        <img class="sponsor" src="assets/img/logo/ieee.png" />
+        <img class="sponsor" src="assets/img/logo/1517_fund.png" />
+        <img class="sponsor" src="assets/img/logo/youinkit.png" />
+        <a href="http://hackp.ac/mlh-stickermule-hackathons"><img class="sponsor" src="assets/img/logo/sticker_mule.png" /></a>
+      </div>
+      <div class="contents">
+        <h3>Hacktech 2018 Partners</h3>
+        <img class="sponsor" src="assets/img/logo/cmslogo.png" />
+        <img class="sponsor" src="assets/img/logo/mlh_logo.png" />
+        <!--
+        <img class="sponsor" id="hackerfund" src="assets/img/logo/hackerfund.png" />
+        -->
+        <br><img class="sponsor" id="caltech" src="assets/img/logo/caltech.png" />
+        <!-- <img class="sponsor" src="/assets/img/logo/caltechcms.png" /> -->
+      </div>
+    </section>
+    <section id="footer">
+      <div class="contents">
+        <div id="social">
+          <a href="http://twitter.com/theHackTech" target="_blank"><img class="socialicon" src="assets/img/twitter.png"></a>
+  				<a href="http://facebook.com/theHackTech" target="_blank"><img class="socialicon" src="assets/img/facebook.png"></a>
+  				<a href="https://www.linkedin.com/company/hacktech" target="_blank"><img class="socialicon" src="assets/img/linkedin.png"></a>
+          <a href="mailto:team@hacktech.io" target="_blank"><img class="socialicon" src="assets/img/email.png"></a>
+        </div>
+        ©2018 Hacktech<br/>
+        All other trademarks and logos ® their respective owners.<br />
+        Made by the Hacktech team with ♥
+      </div>
+    </section>
+  </body>
+  <a id="mlh-trust-badge" style="display:block;max-width:100px;min-width:60px;position:fixed;right:50px;top:0;width:10%;z-index:10000" href="https://mlh.io/seasons/na-2018/events?utm_source=na-2018&utm_medium=TrustBadge&utm_campaign=na-2018&utm_content=blue" target="_blank"><img src="https://s3.amazonaws.com/logged-assets/trust-badge/2018/blue.svg" alt="Major League Hacking 2017 Hackathon Season" style="width:100%"></a>
+  <script src="assets/js/index.js"></script>
+</html>
