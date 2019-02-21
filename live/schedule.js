@@ -17,8 +17,8 @@ var schedule = [
 
 {
   title: "Midnight Snack",
-  caption: "Come eat some dumplings!",
-  time: {day: "sat", start: "1:00AM", duration: "1:00"},
+  caption: "Come eat something!",
+  time: {day: "sat", start: "2:00AM", duration: "1:00"},
   location: "Chandler",
   event_type: "Main timeline",
 },
@@ -33,7 +33,7 @@ var schedule = [
 
 {
   title: "Lunch",
-  caption: "Dessert Sponsored by Disney",
+  caption: "",
   time: {day: "sat", start: "12:00PM", duration: "2:00"},
   location: "Chandler",
   event_type: "Main timeline"
@@ -42,19 +42,20 @@ var schedule = [
 {
   title: "Dinner",
   caption: "",
-  time: {day: "sat", start: "6:00PM", duration: "2:00"},
+  time: {day: "sat", start: "5:30PM", duration: "2:00"},
   location: "Chandler",
   event_type: "Main timeline"
 },
 
 {
   title: "Midnight Snack",
-  caption: "Drink boba and chow down on Banh Mi!",
+  caption: "",
   time: {day: "sun", start: "12:00AM", duration: "1:00"},
   location: "Chandler",
   event_type: "Main timeline"
 },
 
+/*
 {
   title: "Donuts!",
   caption: "Enjoy some early morning donuts.",
@@ -62,18 +63,19 @@ var schedule = [
   location: "Chandler",
   event_type: "Main timeline"
 },
+*/
 
 {
   title: "Brunch",
   caption: "",
-  time: {day: "sun", start: "9:00AM", duration: "3:00"},
+  time: {day: "sun", start: "8:30AM", duration: "3:00"},
   location: "Chandler",
   event_type: "Main timeline",
 },
 
 
 // workshops
-
+/*
 {
   title: "Using Cognitive Services to Uncover Your GoT House Pt. 1",
   caption: "Microsoft",
@@ -81,7 +83,7 @@ var schedule = [
   location: "Annenberg 105",
   event_type: "Workshops"
 },
-  
+
 {
   title: "Machine Learning with AWS ML",
   caption: "Amazon",
@@ -178,7 +180,7 @@ var schedule = [
 //   location: "Winnett",
 //   event_type: "Workshops"
 // },
-
+*/
 // Events
 
 {
@@ -188,14 +190,14 @@ var schedule = [
   location: "Avery",
   event_type: "events"
 },
-
+/*
 {
   title: "Buses Arrive",
   caption: "",
   time: {day: "fri", start: "6:30PM", duration: "1:00"},
   event_type: "events"
 },
-
+*/
 {
   title: "Opening Ceremony",
   caption: "Get hyped for Hacktech 2018!",
@@ -212,39 +214,32 @@ var schedule = [
   event_type: "events"
 },
 
-{
-  title: "Puppy Party!",
-  caption: "Take a break and come play with these adorable bundles of joy!",
-  time: {day:"sat", start:"10:00AM", duration:"1:30"},
-  location: "Avery Garage",
-  event_type: "events"
-},
 
 {
-  title: "1517 Fund Bagel Social",
-  caption: "Eat bagels with 1517 Fund!",
-  time: {day:"sat", start:"10:30AM", duration:"1:00"},
-  location: "Avery Conference",
+  title: "TBD!",
+  caption: "",
+  time: {day:"sat", start:"10:00AM", duration:"1:30"},
+  location: "Somewhere",
   event_type: "events",
   offset: 1
 },
 
 {
-  title: "Life-Sized Jenga + Board Games",
-  caption: "Get away from the computer and get your game-face on!",
-  time: {day:"sat", start:"3:00PM", duration:"2:00"},
-  location: "Avery Conference Room",
+  title: "TBD",
+  caption: "",
+  time: {day:"sat", start:"2:00PM", duration:"3:00"},
+  location: "Somewhere",
   event_type: "events"
 },
 
 {
-  title: "Werewolf",
-  caption: "Find the werewolves among yourselves! Hosted by MLH.",
-  time: {day:"sat", start:"8:00PM", duration:"1:00"},
-  location: "Avery Conference",
+  title: "TBD",
+  caption: "",
+  time: {day:"sat", start:"8:00PM", duration:"3:00"},
+  location: "Somewhere",
   event_type: "events"
 },
-
+/*
 {
   title: "Dance Dance Revolution",
   caption: "Dance your heart out with DDR!",
@@ -260,7 +255,7 @@ var schedule = [
   location: "Avery Conference",
   event_type: "events"
 },
-
+*/
 // {
 //   title: "5-Hour Energy",
 //   caption: "",
@@ -344,7 +339,7 @@ var schedule = [
 {
   title: "Buses Depart",
   caption: "Don't leave :'(",
-  time: {day: "sun", start: "4:00PM", duration: "0:30"},
+  time: {day: "sun", start: "4:00PM", duration: "1:00"},
   location: "",
   event_type: "events",
 },

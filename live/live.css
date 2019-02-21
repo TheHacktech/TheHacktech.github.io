@@ -47,7 +47,7 @@ i {
   width: 30vw;
   max-width: 400px;
   height: 100%;
-  background-color: #546db2;
+  background-color: #BFA8D4;
   color: #fff;
   overflow-y: scroll;
 }
@@ -153,7 +153,7 @@ i {
 
 .container {
   margin-left: 30px;
-  color: #546db2;
+  color: #BFA8D4;
   width: 100%;
   height: 100%;
   overflow: auto;
@@ -177,10 +177,10 @@ i {
 }
 /* Handle */
 ::-webkit-scrollbar-thumb {
-    background: #546db2;
+    background: #BFA8D4;
 }
 ::-webkit-scrollbar-thumb:window-inactive {
-  background: #546db2;
+  background: #BFA8D4;
 }
 
 #schedule {
@@ -195,7 +195,7 @@ i {
 }
 .schedule-venue {
   font-family: "Roboto Condensed", sans-serif;
-    color: #546db2;
+    color: #BFA8D4;
     font-size: 24px;
     line-height: 36px;
     font-weight: 700;
@@ -272,10 +272,10 @@ i {
     margin-bottom: 12px;
     width: calc(100% - 24px);
     position: absolute;
-    border-left: 6px solid #546db2;
-    border-top: 1px solid #546db2;
-    border-bottom: 1px solid #546db2;
-    border-right: 1px solid #546db2;
+    border-left: 6px solid #BFA8D4;
+    border-top: 1px solid #BFA8D4;
+    border-bottom: 1px solid #BFA8D4;
+    border-right: 1px solid #BFA8D4;
     transition: 0.3s ease;
     overflow-y: scroll;
 }
@@ -484,7 +484,7 @@ i {
 }
 #footer a {
     font-weight: 700;
-    color: #546db2;
+    color: #BFA8D4;
 }
 
 @media screen and (max-width: 960px) {
@@ -542,7 +542,7 @@ i {
       top: -6px;
   }
   .schedule-item {
-      width: calc(100% - 80px); 
+      width: calc(100% - 80px);
       margin-left: 60px;
   }
 

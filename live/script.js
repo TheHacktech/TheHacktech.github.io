@@ -1,7 +1,7 @@
 var BROWSER;
 var VIEWPORT_WIDTH;
-var START_TIME = (new Date(2018, 2, 2, 18, 0, 0, 0)).getTime();
-var END_TIME = (new Date(2018, 2, 4, 17, 0, 0, 0)).getTime();
+var START_TIME = (new Date(2019, 2, 2, 18, 0, 0, 0)).getTime();
+var END_TIME = (new Date(2019, 2, 4, 18, 0, 0, 0)).getTime();
 var TOTAL_TIME = END_TIME - START_TIME;
 var SCHEDULE_HEIGHT = 5600; //4400
 var countdown;
@@ -33,7 +33,7 @@ function schedule_callback(state){
 
 days = ["FRI", "SAT", "SUN"];
 start_hour = 6;
-duration = 47;
+duration = 48;
 
 function createCalendar() {
 	var day = 0;
@@ -204,13 +204,13 @@ $(document).ready(function(){
 	        function delayed () {
 	            if (!execAsap)
 	                func.apply(obj, args);
-	            timeout = null; 
+	            timeout = null;
 	        };
 	        if (timeout)
 	            clearTimeout(timeout);
 	        else if (execAsap)
 	            func.apply(obj, args);
-	        timeout = setTimeout(delayed, threshold || 100); 
+	        timeout = setTimeout(delayed, threshold || 100);
 	    };
 	}
 
