@@ -75,6 +75,15 @@ var schedule = [
 
 
 // workshops
+
+{
+  title: "Innovation Journey Using eBay APIs",
+  caption: "Join this working session for hands-on help w/ eBay APIs and to hear about how they were used to in one developer's innovation journey.",
+  time: {day: "fri", start: "10:30PM", duration: "0:30"},
+  location: "Annenberg 105",
+  event_type: "Workshops"
+},
+
 {
   title: "TBD",
   caption: "Uber",
@@ -84,83 +93,30 @@ var schedule = [
 },
 
 {
-  title: "How to Board the Intern Ship",
-  caption: "Hack the internship and job hunting process!",
-  time: {day: "sat", start: "5:00PM", duration: "1:00"},
+  title: "Setting Up a Website",
+  caption: "Learn how to host your own website from beginning to end.",
+  time: {day: "sat", start: "11:30AM", duration: "1:00"},
+  location: "Annenberg 105",
+  event_type: "Workshops"
+},
+{
+  title: "Machine Learning 101",
+  caption: "",
+  time: {day: "sat", start: "2:30PM", duration: "2:00"},
   location: "Annenberg 105",
   event_type: "Workshops"
 },
 
-/*
-{
-  title: "Using Cognitive Services to Uncover Your GoT House Pt. 1",
-  caption: "Microsoft",
-  time: {day: "fri", start: "11:00PM", duration: "1:00"},
-  location: "Annenberg 105",
-  event_type: "Workshops"
-},
-
-
-
-{
-  title: "Using Cognitive Services to Uncover Your GoT House Pt. 2",
-  caption: "Microsoft",
-  time: {day: "sat", start: "12:00AM", duration: "1:00"},
-  location: "Annenberg 105",
-  event_type: "Workshops"
-},
-
-{
-  title: "Code for Ca$hflow w/ eBay APIs",
-  caption: "Dan Fain, fellow ‘Tech-er and VP of Data Platform Engineering, and team will give you a download about transformative tech at eBay…and how you can turn your code into cashflow through their APIs.",
-  time: {day: "sat", start: "1:00AM", duration: "1:00"},
-  location: "Annenberg 105",
-  event_type: "Workshops"
-},
-
-{
-  title: "Build-a-(Slack)bot Workshop",
-  caption: "Learn how to build a Slack bot for your hack!",
-  time: {day: "sat", start: "2:00AM", duration: "1:00"},
-  location: "Annenberg 105",
-  event_type: "Workshops"
-},
-
-{
-  title: "1517 Fund Office Hours",
-  caption: "Meet with Nick Arnett from 1517 Fund and talk about your project! Check Slack to schedule a meeting.",
-  time: {day: "sat", start: "1:00PM", duration: "4:00"},
-  location: "Red Door Cafe",
-  event_type: "Workshops"
-},
-
-
-
-{
-  title: "Disney Office Hours",
-  caption: "Grab some Hacktech dinner and come chat with Disney!",
-  time: {day: "sat", start: "6:00PM", duration: "1:00"},
-  location: "Chandler Bar",
-  event_type: "Workshops"
-}
-*/
 // Events
 
 {
-  title: "Registration",
+  title: "Hacker Registration",
   caption: "",
   time: {day: "fri", start: "6:30PM", duration: "2:30"},
   location: "Avery",
   event_type: "events"
 },
-/*
-{
-  title: "Buses Arrive",
-  caption: "",
-  time: {day: "fri", start: "6:30PM", duration: "1:00"},
-  event_type: "events"
-},
-*/
+
 {
   title: "Opening Ceremony",
   caption: "Get hyped for Hacktech 2019!",
@@ -177,16 +133,13 @@ var schedule = [
   event_type: "events"
 },
 
-
-// {
-//   title: "TBD!",
-//   caption: "",
-//   time: {day:"sat", start:"10:00AM", duration:"1:30"},
-//   location: "Somewhere",
-//   event_type: "events",
-//   offset: 1
-// },
-
+{
+  title: "Puppies",
+  caption: "",
+  time: {day:"sat", start:"10:00AM", duration:"1:00"},
+  location: "Avery Garage",
+  event_type: "events"
+},
 
 {
   title: "Ultimate Frisbee",
@@ -204,6 +157,15 @@ var schedule = [
   event_type: "events"
 },
 
+
+{
+  title: "Virtual Reality Games",
+  caption: "",
+  time: {day:"sat", start:"4:30PM", duration:"1:00"},
+  location: "Sherman Fairchild Library",
+  event_type: "events"
+},
+
 {
   title: "Cup Stacking with MLH",
   caption: "",
@@ -213,86 +175,20 @@ var schedule = [
 },
 
 {
-  title: "Board Game Night",
-  caption: "Take a break with some board games!",
+  title: "Movie Night",
+  caption: "TBD the movie",
   time: {day:"sat", start:"9:00PM", duration:"3:00"},
   location: "Avery Conference",
   event_type: "events"
 },
-/*
-
 
 {
-  title: "Smash Tournament",
-  caption: "Show off your skills and win!",
-  time: {day:"sat", start:"11:00PM", duration:"1:30"},
+  title: "Board Game Night",
+  caption: "Take a break with some board games!",
+  time: {day:"sat", start:"12:00AM", duration:"2:00"},
   location: "Avery Conference",
   event_type: "events"
 },
-*/
-// {
-//   title: "5-Hour Energy",
-//   caption: "",
-//   time: {day:"sat", start:"7:00PM", duration:"3:00"},
-//   location: "Winnett",
-//   event_type: "events",
-// },
-
-// {
-//   title: "Cup Stacking with Swift",
-//   caption: "",
-//   time: {day:"sat", start:"10:00PM", duration:"1:00"},
-//   location: "Winnett",
-//   event_type: "events",
-// },
-//
-// {
-//   title: "Watermelon Eating Contest",
-//   caption: "",
-//   time: {day: "sat", start: "12:30PM", duration: "1:00"},
-//   location: "Avery Courtyard",
-//   event_type: "events"
-// },
-//
-// {
-//   title: "Life-size Jenga",
-//   caption: "",
-//   time: {day: "sat", start: "2:00PM", duration: "1:00"},
-//   location: "Winnett",
-//   event_type: "events"
-// },
-//
-// {
-//   title: "Minesweeper Tournament",
-//   caption: "",
-//   time: {day: "sat", start: "5:30PM", duration: "1:30"},
-//   location: "Winnett",
-//   event_type: "events"
-// },
-//
-// {
-//   title: "Anime Watching Party",
-//   caption: "",
-//   time: {day: "sat", start: "8:00PM", duration: "2:00"},
-//   location: "Winnett",
-//   event_type: "events"
-// },
-//
-// {
-//   title: "Powerade Contest?",
-//   caption: "",
-//   time: {day: "sat", start: "11:15PM", duration: "0:45"},
-//   location: "Chandler",
-//   event_type: "events"
-// },
-//
-// {
-//   title: "Bubble Wraaap *pop*",
-//   caption: "",
-//   time: {day: "sun", start: "1:00AM", duration: "1:00"},
-//   location: "Winnett",
-//   event_type: "events"
-// },
 
 {
   title: "Project Expo",
