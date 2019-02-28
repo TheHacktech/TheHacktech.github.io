@@ -106,7 +106,13 @@ var schedule = [
   location: "Annenberg 105",
   event_type: "Workshops"
 },
-
+{
+  title: "How to Board the Intern Ship ",
+  caption: "",
+  time: {day: "sat", start: "5:00PM", duration: "1:00"},
+  location: "Annenberg 105",
+  event_type: "Workshops"
+},
 // Events
 
 {
@@ -152,7 +158,7 @@ var schedule = [
 {
   title: "Giant Jenga",
   caption: "",
-  time: {day:"sat", start:"3:00PM", duration:"1:00"},
+  time: {day:"sat", start:"3:30PM", duration:"1:00"},
   location: "Avery Conference",
   event_type: "events"
 },
@@ -185,7 +191,7 @@ var schedule = [
 {
   title: "Board Game Night",
   caption: "Take a break with some board games!",
-  time: {day:"sat", start:"12:00AM", duration:"2:00"},
+  time: {day:"sun", start:"12:00AM", duration:"2:00"},
   location: "Avery Conference",
   event_type: "events"
 },
