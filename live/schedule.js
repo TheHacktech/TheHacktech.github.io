@@ -85,8 +85,8 @@ var schedule = [
 },
 
 {
-  title: "TBD",
-  caption: "Uber",
+  title: "Your Next Uber Trip in Self-Driving Car",
+  caption: "Learn about Uber's developments in the field of self-driving cars!",
   time: {day: "sat", start: "10:00AM", duration: "1:00"},
   location: "Annenberg 105",
   event_type: "Workshops"
