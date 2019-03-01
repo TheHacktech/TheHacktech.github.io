@@ -102,7 +102,7 @@ var schedule = [
 {
   title: "Machine Learning 101",
   caption: "",
-  time: {day: "sat", start: "2:30PM", duration: "2:00"},
+  time: {day: "sat", start: "12:30PM", duration: "2:00"},
   location: "Annenberg 105",
   event_type: "Workshops"
 },
