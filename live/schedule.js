@@ -93,8 +93,8 @@ var schedule = [
 },
 
 {
-  title: "Setting Up a Website",
-  caption: "Learn how to host your own website from beginning to end.",
+  title: "From localhost to https://",
+  caption: "How to host a web app on the WWW securely and for free!",
   time: {day: "sat", start: "11:30AM", duration: "1:00"},
   location: "Annenberg 105",
   event_type: "Workshops"
