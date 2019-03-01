@@ -79,7 +79,7 @@ var schedule = [
 {
   title: "Innovation Journey Using eBay APIs",
   caption: "Join this working session for hands-on help w/ eBay APIs and to hear about how they were used to in one developer's innovation journey.",
-  time: {day: "fri", start: "10:30PM", duration: "0:30"},
+  time: {day: "fri", start: "10:30PM", duration: "1:00"},
   location: "Annenberg 105",
   event_type: "Workshops"
 },
@@ -167,7 +167,7 @@ var schedule = [
 {
   title: "Virtual Reality Games",
   caption: "",
-  time: {day:"sat", start:"4:30PM", duration:"1:00"},
+  time: {day:"sat", start:"4:30PM", duration:"2:00"},
   location: "Sherman Fairchild Library",
   event_type: "events"
 },
