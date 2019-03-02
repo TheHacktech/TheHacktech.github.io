@@ -159,7 +159,7 @@ var schedule = [
   title: "Giant Jenga",
   caption: "",
   time: {day:"sat", start:"3:30PM", duration:"1:00"},
-  location: "Avery Conference",
+  location: "Avery Garage",
   event_type: "events"
 },
 
@@ -176,7 +176,7 @@ var schedule = [
   title: "Cup Stacking with MLH",
   caption: "",
   time: {day:"sat", start:"8:00PM", duration:"1:00"},
-  location: "Avery Conference",
+  location: "Avery Garage",
   event_type: "events"
 },
 
@@ -184,7 +184,7 @@ var schedule = [
   title: "Movie Night",
   caption: "TBD the movie",
   time: {day:"sat", start:"9:00PM", duration:"3:00"},
-  location: "Avery Conference",
+  location: "Annenberg 105",
   event_type: "events"
 },
 
@@ -192,7 +192,7 @@ var schedule = [
   title: "Board Game Night",
   caption: "Take a break with some board games!",
   time: {day:"sun", start:"12:00AM", duration:"2:00"},
-  location: "Avery Conference",
+  location: "Annenberg 105",
   event_type: "events"
 },
 
