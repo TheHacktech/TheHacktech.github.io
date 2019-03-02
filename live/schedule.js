@@ -87,7 +87,7 @@ var schedule = [
 {
   title: "Your Next Uber Trip in Self-Driving Car",
   caption: "Learn about Uber's developments in the field of self-driving cars!",
-  time: {day: "sat", start: "10:00AM", duration: "1:00"},
+  time: {day: "sat", start: "11:00AM", duration: "1:00"},
   location: "Annenberg 105",
   event_type: "Workshops"
 },
@@ -95,7 +95,7 @@ var schedule = [
 {
   title: "From localhost to https://",
   caption: "How to host a web app on the WWW securely and for free!",
-  time: {day: "sat", start: "11:30AM", duration: "1:00"},
+  time: {day: "sat", start: "2:30PM", duration: "1:00"},
   location: "Annenberg 105",
   event_type: "Workshops"
 },
