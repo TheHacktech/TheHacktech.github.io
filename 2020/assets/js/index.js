@@ -46,3 +46,9 @@ function changeLogo() {
     var logo = prompt("Enter link to logo: ", "assets/img/tt12.png");
     document.getElementById("hektek").src = logo;
 }
+
+function buttons() {
+    document.getElementById("colorbtn").style.left = window.innerWidth - 400 + "px";
+    document.getElementById("logobtn").style.left = window.innerWidth - 500 + "px";
+}
+buttons();
